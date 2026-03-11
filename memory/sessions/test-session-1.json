@@ -1,0 +1,16 @@
+{
+  "sessionId": "test-session-1",
+  "sessionData": {
+    "sessionId": "test-session-1",
+    "sessionData": {
+      "role": "user",
+      "content": "What is OpenClaw?",
+      "timestamp": "2026-03-10T16:30:08.390Z"
+    }
+  },
+  "timestamp": "2026-03-10T16:30:08.391Z",
+  "lastActivity": "2026-03-10T16:30:08.391Z",
+  "importance": 10,
+  "tags": [],
+  "wordCount": 3
+}

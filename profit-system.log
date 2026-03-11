@@ -1,0 +1,56 @@
+[2026-03-11T16:33:56.091Z] ℹ️ === Profit System Starter ===
+[2026-03-11T16:33:56.104Z] ℹ️ Starting comprehensive profit system...
+
+[2026-03-11T16:33:56.105Z] ℹ️ Checking dependencies...
+[2026-03-11T16:33:56.107Z] ℹ️ Dependencies already installed
+[2026-03-11T16:33:56.108Z] ℹ️ Building Agency skills...
+[2026-03-11T16:33:56.109Z] ❌ Agency skills build failed: The "callback" argument must be of type function. Received an instance of Object
+[2026-03-11T16:33:56.110Z] ❌ Failed to build agency skills, aborting
+[2026-03-11T16:35:07.487Z] ℹ️ === Profit System Starter ===
+[2026-03-11T16:35:07.502Z] ℹ️ Starting comprehensive profit system...
+
+[2026-03-11T16:35:07.502Z] ℹ️ Checking dependencies...
+[2026-03-11T16:35:07.504Z] ℹ️ Dependencies already installed
+[2026-03-11T16:35:07.505Z] ℹ️ Building Agency skills...
+[2026-03-11T16:35:07.507Z] ❌ Agency skills build failed: The "callback" argument must be of type function. Received an instance of Object
+[2026-03-11T16:35:07.508Z] ❌ Stack: TypeError [ERR_INVALID_ARG_TYPE]: The "callback" argument must be of type function. Received an instance of Object
+    at normalizeExecFileArgs (node:child_process:286:5)
+    at Object.execFile (node:child_process:324:40)
+    at _cp.execFile (/root/.openclaw/proot-compat.js:313:30)
+    at exec (node:child_process:233:25)
+    at node:child_process:242:21
+    at buildAgencySkills (/root/.openclaw/workspace/profit-system-starter.js:56:11)
+    at main (/root/.openclaw/workspace/profit-system-starter.js:148:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-03-11T16:35:07.508Z] ❌ Failed to build agency skills, aborting
+[2026-03-11T16:35:56.328Z] ℹ️ === Profit System Starter ===
+[2026-03-11T16:35:56.345Z] ℹ️ Starting comprehensive profit system...
+
+[2026-03-11T16:35:56.346Z] ℹ️ Building Agency skills...
+[2026-03-11T16:35:56.347Z] ℹ️ Running: agency-bridge.js build
+[2026-03-11T16:35:56.426Z] ❌ Agency build error: node:internal/modules/cjs/loader:1247
+  throw err;
+  ^
+
+Error: Cannot find module '/root/.openclaw/workspace/build'
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1244:15)
+    at Function._load (node:internal/modules/cjs/loader:1070:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:170:5)
+    at node:internal/main/run_main_module:36:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v22.13.1
+
+[2026-03-11T16:35:56.427Z] ℹ️ Starting Profit Command Center...
+[2026-03-11T16:35:56.430Z] ✅ Profit Engine started with PID 30009
+[2026-03-11T16:35:59.432Z] ℹ️ 
+✅ Profit System is now running!
+[2026-03-11T16:35:59.433Z] ℹ️ 💰 System will generate revenue automatically
+[2026-03-11T16:35:59.434Z] ℹ️ 📊 Check status with: node profit-status.js
+[2026-03-11T16:35:59.435Z] ℹ️ 📝 Logs: profit-system.log
+[2026-03-11T16:35:59.435Z] ℹ️ 
+To stop: kill 30009

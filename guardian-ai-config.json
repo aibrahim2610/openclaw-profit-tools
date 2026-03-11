@@ -1,0 +1,35 @@
+{
+  "guardian": {
+    "enabled": true,
+    "checkInterval": 30000,
+    "restartOnFailure": true
+  },
+  "rateLimitBypass": {
+    "enabled": true,
+    "maxRequests": 100,
+    "timeWindow": 60000,
+    "sessionTimeout": 3600000
+  },
+  "claudeCodeFactory": {
+    "enabled": true,
+    "autoGenerate": true,
+    "templates": 8
+  },
+  "agencyBridge": {
+    "enabled": true,
+    "autoRegister": true,
+    "parallelExecution": true
+  },
+  "revenue": {
+    "tracking": true,
+    "autoWithdraw": false,
+    "minPayout": 100
+  },
+  "notifications": {
+    "enabled": true,
+    "channels": [
+      "console",
+      "file"
+    ]
+  }
+}

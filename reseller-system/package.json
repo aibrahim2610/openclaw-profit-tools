@@ -1,0 +1,28 @@
+{
+  "name": "openrouter-reseller",
+  "version": "1.0.0",
+  "description": "Sells OpenRouter API credits automatically with profit margin. Freemium model - free tier available.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "express-rate-limit": "^6.10.0"
+  },
+  "keywords": [
+    "openrouter",
+    "api",
+    "reseller",
+    "ai",
+    "credits"
+  ],
+  "author": "Guardian-AI",
+  "license": "MIT"
+}

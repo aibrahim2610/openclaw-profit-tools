@@ -1,0 +1,29 @@
+{
+  "name": "claude-code-tool-factory",
+  "version": "1.0.0",
+  "description": "Automatically generates useful coding tools and utilities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "generate": "node generate-tool.js",
+    "list": "node list-tools.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "uuid": "^9.0.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6"
+  },
+  "keywords": [
+    "code-generator",
+    "tool-factory",
+    "automation",
+    "cli-tools",
+    "openai",
+    "claude"
+  ],
+  "author": "Guardian-AI",
+  "license": "MIT"
+}

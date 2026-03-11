@@ -1,0 +1,37 @@
+{
+  "name": "Social Media Scraper Pro",
+  "type": "web-scraper",
+  "description": "Advanced social media scraping with sentiment analysis and trend detection. Generates revenue by extracting valuable market insights for clients.",
+  "inputs": [
+    {
+      "name": "platform",
+      "type": "string",
+      "required": true,
+      "description": "Platform: twitter, instagram, linkedin, tiktok"
+    },
+    {
+      "name": "query",
+      "type": "string",
+      "required": true,
+      "description": "Search query or hashtag"
+    },
+    {
+      "name": "limit",
+      "type": "number",
+      "required": false,
+      "default": 100,
+      "description": "Number of posts to scrape"
+    }
+  ],
+  "outputs": {
+    "posts": "Array of scraped posts with metadata",
+    "sentiment": "Overall sentiment analysis (positive/negative/neutral)",
+    "trends": "Detected trending topics and hashtags",
+    "engagement": "Engagement metrics (likes, shares, comments)",
+    "revenue": "Revenue generated from this scrape"
+  },
+  "revenueModel": "per-use",
+  "revenueEstimate": 50,
+  "priority": "high",
+  "targetClients": ["marketing-agencies", "brands", "researchers"]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "openguardian",
+  "version": "1.0.0",
+  "description": "نظام آلي بالكامل لاكتشاف التسريبات الأمنية وبيع خدمات الحماية",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "openclaw": "2026.3.9",
+    "express": "^5.2.1",
+    "sqlite3": "^5.1.7",
+    "nodemailer": "^6.10.0",
+    "axios": "^1.8.4",
+    "stripe": "^14.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.5",
+    "typescript": "^5.9.3"
+  },
+  "keywords": ["autonomous", "ai", "data-breach", "security", "profit-system"],
+  "author": "OpenClaw",
+  "license": "AGPL-3.0-or-later"
+}

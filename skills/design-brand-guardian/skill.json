@@ -1,0 +1,12 @@
+{
+  "name": "Brand Guardian",
+  "description": "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
+  "version": "1.0.0",
+  "author": "Agency-Agents Integration",
+  "category": "design",
+  "revenue": true,
+  "requires": [
+    "openclaw",
+    "agentmem"
+  ]
+}

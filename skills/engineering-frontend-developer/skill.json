@@ -1,0 +1,12 @@
+{
+  "name": "Frontend Developer",
+  "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
+  "version": "1.0.0",
+  "author": "Agency-Agents Integration",
+  "category": "engineering",
+  "revenue": true,
+  "requires": [
+    "openclaw",
+    "agentmem"
+  ]
+}

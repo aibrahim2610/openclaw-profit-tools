@@ -1,0 +1,367 @@
+[
+  {
+    "name": "Social Media Intelligence Hunter",
+    "type": "web-scraper",
+    "description": "Advanced real-time social media intelligence for market research and trend analysis",
+    "inputs": [
+      {
+        "name": "platform",
+        "type": "string",
+        "required": true,
+        "description": "Platform: twitter, instagram, tiktok, linkedin"
+      },
+      {
+        "name": "keywords",
+        "type": "array",
+        "required": true,
+        "description": "Keywords and hashtags to track"
+      },
+      {
+        "name": "timeRange",
+        "type": "string",
+        "required": false,
+        "default": "24h",
+        "description": "Time range for data collection"
+      }
+    ],
+    "outputs": {
+      "rawData": "Raw collected posts and metadata",
+      "analytics": "Sentiment analysis and trend metrics",
+      "leads": "Potential business leads and opportunities",
+      "insights": "Actionable market intelligence"
+    },
+    "revenueModel": "subscription",
+    "revenueEstimate": 150,
+    "priority": "critical",
+    "targetClients": ["brands", "agencies", "investors"]
+  },
+  {
+    "name": "E-Commerce Arbitrage Engine",
+    "type": "data-processor",
+    "description": "Automated e-commerce price comparison and arbitrage opportunity detection",
+    "inputs": [
+      {
+        "name": "products",
+        "type": "array",
+        "required": true,
+        "description": "List of product identifiers (ASIN, SKU, URL)"
+      },
+      {
+        "name": "platforms",
+        "type": "array",
+        "required": false,
+        "default": ["amazon", "ebay", "walmart", "target"],
+        "description": "E-commerce platforms to monitor"
+      },
+      {
+        "name": "minProfitMargin",
+        "type": "number",
+        "required": false,
+        "default": 0.20,
+        "description": "Minimum profit margin (20% = 0.20)"
+      }
+    ],
+    "outputs": {
+      "opportunities": "List of profitable arbitrage opportunities",
+      "priceComparison": "Side-by-side price comparison",
+      "profitProjections": "Projected profits after fees",
+      "actionPlan": "Recommended purchases and resale strategy"
+    },
+    "revenueModel": "per-use",
+    "revenueEstimate": 75,
+    "priority": "high",
+    "targetClients": ["dropshippers", "retailers", "flippers"]
+  },
+  {
+    "name": "API Integration Pro",
+    "type": "api-integration",
+    "description": "Universal API connector that integrates any third-party service with smart retry and caching",
+    "inputs": [
+      {
+        "name": "service",
+        "type": "string",
+        "required": true,
+        "description": "Service to integrate: stripe, twilio, sendgrid, etc."
+      },
+      {
+        "name": "operation",
+        "type": "string",
+        "required": true,
+        "description": "API operation to perform"
+      },
+      {
+        "name": "parameters",
+        "type": "object",
+        "required": true,
+        "description": "Operation parameters"
+      }
+    ],
+    "outputs": {
+      "result": "API response data",
+      "normalized": "Standardized output format",
+      "cached": "Whether response was served from cache",
+      "cost": "Operation cost and quota usage"
+    },
+    "revenueModel": "per-call",
+    "revenueEstimate": 0.25,
+    "priority": "medium",
+    "targetClients": ["saas-companies", "startups", "automation-agencies"]
+  },
+  {
+    "name": "Smart Notification System",
+    "type": "notification",
+    "description": "Multi-channel notification engine with AI-powered timing optimization",
+    "inputs": [
+      {
+        "name": "recipients",
+        "type": "array",
+        "required": true,
+        "description": "List of recipients (phone, email, device token)"
+      },
+      {
+        "name": "template",
+        "type": "string",
+        "required": true,
+        "description": "Notification template name or content"
+      },
+      {
+        "name": "priority",
+        "type": "string",
+        "required": false,
+        "default": "normal",
+        "description": "low, normal, high, urgent"
+      },
+      {
+        "name": "schedule",
+        "type": "string",
+        "required": false,
+        "description": "Send immediately or schedule for later"
+      }
+    ],
+    "outputs": {
+      "delivered": "Delivery status per channel",
+      "opened": "Open/click tracking",
+      "revenue": "Revenue generated from notifications",
+      "optimization": "AI suggestions for better delivery"
+    },
+    "revenueModel": "per-message",
+    "revenueEstimate": 0.15,
+    "priority": "high",
+    "targetClients": ["marketing", "support", "sales-teams"]
+  },
+  {
+    "name": "Big Data Processor 9000",
+    "type": "data-processor",
+    "description": "High-performance distributed data processing for large-scale analytics and ETL",
+    "inputs": [
+      {
+        "name": "dataset",
+        "type": "string|array",
+        "required": true,
+        "description": "Data source: file path, array, or database connection"
+      },
+      {
+        "name": "operations",
+        "type": "array",
+        "required": true,
+        "description": "Processing operations: clean, transform, enrich, analyze"
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "required": false,
+        "default": "json",
+        "description": "Output format: json, csv, parquet, etc."
+      }
+    ],
+    "outputs": {
+      "processedData": "Transformed dataset",
+      "statistics": "Data quality metrics and transformations applied",
+      "insights": "Automated insights and anomalies detected",
+      "revenue": "Revenue from processing volume"
+    },
+    "revenueModel": "per-gb",
+    "revenueEstimate": 3.50,
+    "priority": "high",
+    "targetClients": ["data-science", "fintech", "healthcare-analytics"]
+  },
+  {
+    "name": "Revenue Analytics Dashboard Pro",
+    "type": "analytics",
+    "description": "Real-time profit analytics and KPI dashboard for the entire system",
+    "inputs": [
+      {
+        "name": "timeRange",
+        "type": "string",
+        "required": false,
+        "default": "24h",
+        "description": "Time range: 1h, 24h, 7d, 30d, all"
+      },
+      {
+        "name": "filters",
+        "type": "object",
+        "required": false,
+        "description": "Optional filters for specific tools, agents, or revenue streams"
+      }
+    ],
+    "outputs": {
+      "totalRevenue": "Total revenue over selected period",
+      "topPerformers": "Highest earning tools and agents ranked",
+      "trends": "Revenue trends and projections",
+      "anomalies": "Unusual patterns requiring attention",
+      "recommendations": "AI-powered optimization suggestions",
+      "dashboards": "Visual dashboard data (charts, graphs)"
+    },
+    "revenueModel": "internal",
+    "revenueEstimate": 0,
+    "priority": "critical",
+    "targetClients": ["internal-only"]
+  },
+  {
+    "name": "LeadGen Automation Suite",
+    "type": "automation",
+    "description": "Automated lead generation from multiple sources with qualification scoring",
+    "inputs": [
+      {
+        "name": "sources",
+        "type": "array",
+        "required": true,
+        "description": "Data sources: linkedin, directories, websites, apis"
+      },
+      {
+        "name": "criteria",
+        "type": "object",
+        "required": true,
+        "description": "Lead qualification criteria (industry, size, geography, etc.)"
+      },
+      {
+        "name": "outreach",
+        "type": "object",
+        "required": false,
+        "description": "Optional automated outreach configuration"
+      }
+    ],
+    "outputs": {
+      "leads": "Qualified lead list with contact info",
+      "score": "Lead quality score (0-100)",
+      "insights": "Market segmentation insights",
+      "outreach": "Sent outreach campaign results",
+      "revenue": "Revenue from lead generation services"
+    },
+    "revenueModel": "per-lead",
+    "revenueEstimate": 5,
+    "priority": "high",
+    "targetClients": ["b2b-sales", "recruitment", "real-estate"]
+  },
+  {
+    "name": "Security Monitor Advanced",
+    "type": "monitor",
+    "description": "Continuous security monitoring and breach detection system",
+    "inputs": [
+      {
+        "name": "targets",
+        "type": "array",
+        "required": true,
+        "description": "Assets to monitor: domains, ips, cloud resources"
+      },
+      {
+        "name": "checks",
+        "type": "array",
+        "required": false,
+        "default": ["ssl", "ports", "vulnerabilities", "data-leaks"],
+        "description": "Security checks to perform"
+      },
+      {
+        "name": "alertChannels",
+        "type": "array",
+        "required": false,
+        "description": "Channels for alerts: email, sms, slack, webhook"
+      }
+    ],
+    "outputs": {
+      "vulnerabilities": "Found security issues with severity",
+      "compliance": "Compliance status (SOC2, GDPR, etc.)",
+      "alerts": "Active alerts requiring immediate action",
+      "certificate": "Security monitoring certificate",
+      "revenue": "Revenue from security monitoring subscriptions"
+    },
+    "revenueModel": "subscription",
+    "revenueEstimate": 200,
+    "priority": "critical",
+    "targetClients": ["enterprises", "fintech", "healthcare"]
+  },
+  {
+    "name": "SEO Traffic Dominator",
+    "type": "web-scraper",
+    "description": "Comprehensive SEO analysis and traffic intelligence from competitors",
+    "inputs": [
+      {
+        "name": "domains",
+        "type": "array",
+        "required": true,
+        "description": "Domains to analyze"
+      },
+      {
+        "name": "keywords",
+        "type": "array",
+        "required": false,
+        "description": "Target keywords for ranking analysis"
+      },
+      {
+        "name": "depth",
+        "type": "string",
+        "required": false,
+        "default": "full",
+        "description": "Analysis depth: basic, standard, full"
+      }
+    ],
+    "outputs": {
+      "keywordRankings": "Current rankings for all keywords",
+      "backlinkProfile": "Backlink analysis and opportunities",
+      "contentGap": "Content gaps vs competitors",
+      "technicalSEO": "Technical SEO issues and recommendations",
+      "revenue": "Revenue from SEO services"
+    },
+    "revenueModel": "per-audit",
+    "revenueEstimate": 250,
+    "priority": "high",
+    "targetClients": ["agencies", "ecommerce", "publishers"]
+  },
+  {
+    "name": "Cloud Cost Optimizer",
+    "type": "analytics",
+    "description": "AI-powered cloud cost analysis and optimization recommendations",
+    "inputs": [
+      {
+        "name": "cloudProvider",
+        "type": "string",
+        "required": true,
+        "description": "aws, gcp, azure, or all"
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": false,
+        "default": "30d",
+        "description": "Analysis period: 7d, 30d, 90d"
+      },
+      {
+        "name": "services",
+        "type": "array",
+        "required": false,
+        "description": "Specific services to analyze (defaults to all)"
+      }
+    ],
+    "outputs": {
+      "waste": "Identified wasteful resources and costs",
+      "recommendations": "Specific optimization actions with savings estimate",
+      "rightsizing": "VM and database rightsizing suggestions",
+      "commits": "Reserved instance/commitment recommendations",
+      "revenue": "Revenue from cost optimization savings (percentage)"
+    },
+    "revenueModel": "savings-share",
+    "revenueEstimate": 500,
+    "priority": "high",
+    "targetClients": ["enterprises", "startups", "finops-teams"]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "name": "engineering-technical-writer",
+  "description": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.",
+  "category": "Automation",
+  "subcategory": "CI/CD",
+  "pricing": {
+    "unit_name": "per month",
+    "unit_price": 29,
+    "unit_interval": "monthly"
+  },
+  "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-technical-writer/README.md",
+  "vendor_email": "aibrahim2610@users.noreply.github.com",
+  "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
+  "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-technical-writer",
+  "publishedAt": "2026-03-11T18:33:47.289Z",
+  "status": "draft"
+}

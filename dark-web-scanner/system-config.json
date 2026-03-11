@@ -1,0 +1,90 @@
+{
+  "name": "dark-web-scanner",
+  "version": "1.0.0",
+  "status": "active",
+  "description": "Scans dark web for data breaches, collects information about leaks and their owners, then contacts them to offer remediation services for a fee",
+  
+  "paths": {
+    "main": "/root/.openclaw/workspace/dark-web-scanner/index.js",
+    "packageJson": '/root/.openclaw/workspace/dark-web-scanner/package.json',
+    "quickstart": '/root/.openclaw/workspace/dark-web-scanner/QUICKSTART.md'
+  },
+  
+  "config": {
+    "port": 3004,
+    "scanInterval": '0 */6 * * *',
+    "basePrice": 199,
+    
+    "pricePerRecord": 5,
+    "discountPercent": 10,
+    "payoutThreshold": 100,
+    
+    "maxConcurrentRequests": 5,
+    "timeoutMs": 30000,
+    "maxRetries": 3
+  },
+  
+  "dataTypes": [
+    'credit_card',
+    'email',
+    'password',
+    'ssn',
+    'phone',
+    'address',
+    'username',
+    'ip_address'
+  ],
+  
+  "sources": {
+    "onionSites": [
+      'http://3g2upl4pq6kufc4m.onion',
+      'http://zqktlwi4fecvo6ri.onion',
+      'http://xmh57jrzrnw6insl.onion',
+      'http://oniondir.biz',
+      'http://grams7enufi7jmdl.onion'
+    ],
+    "darkWebForums": [
+      'http://forums24hdv6l.onion',
+      'http://leakforums.biz',
+      'http://pastebin.onion'
+    ],
+    "monitoringSites": [
+      'https://haveibeenpwned.com/api/v3/breaches',
+      'https://api.fraudwatch.com/v1/leaks'
+    ]
+  },
+  
+  "endpoints": {
+    "health": '/health',
+    "startScan": '/scan/start',
+    "stats": '/stats',
+    "notifications": '/notifications'
+  },
+  
+  "dependencies": [
+    "express",
+    "node-fetch",
+    "puppeteer",
+    "cheerio",
+    "axios",
+    "dotenv",
+    "node-cron",
+    "nodemailer",
+    "bcrypt",
+    "jsonwebtoken",
+    "chalk",
+    "inquirer"
+  ],
+  
+  "deployment": {
+    "startCommand": 'npm start',
+    "healthCheckUrl": 'http://localhost:3004/health'
+  },
+  
+  "notes": [
+    "Run 'npm start' to begin scanning",
+    "System scans every 6 hours automatically",
+    "Generates revenue from remediation services",
+    "Requires email credentials for notifications"
+  ]
+}

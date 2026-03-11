@@ -1,0 +1,15 @@
+{
+  "id": "e0e9e929-6736-4dc5-b471-3cc8998c0dc4",
+  "name": "profit-system",
+  "data": {
+    "mode": "continuous",
+    "startTime": 1773185058237,
+    "guardianPid": 24669
+  },
+  "createdAt": 1773185058238,
+  "lastActivity": 1773185058238,
+  "status": "active",
+  "retries": 0,
+  "currentTask": null,
+  "history": []
+}

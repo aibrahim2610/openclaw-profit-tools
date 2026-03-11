@@ -1,0 +1,10 @@
+{
+  "key": "api-result:test-api:-wv6emw",
+  "data": {
+    "success": false,
+    "data": null,
+    "error": "Simulated API error",
+    "latency": 155.32244060367262
+  },
+  "timestamp": 1773185140695
+}

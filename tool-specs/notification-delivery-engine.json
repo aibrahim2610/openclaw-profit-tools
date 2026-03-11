@@ -1,0 +1,43 @@
+{
+  "name": "Notification Delivery Engine",
+  "type": "notification",
+  "description": "Multi-channel notification delivery (SMS, Email, Push, WhatsApp). Scales to millions of messages. Revenue per notification sent.",
+  "inputs": [
+    {
+      "name": "recipient",
+      "type": "string",
+      "required": true,
+      "description": "Phone number, email, or device token"
+    },
+    {
+      "name": "channel",
+      "type": "string",
+      "required": true,
+      "description": "sms, email, push, whatsapp"
+    },
+    {
+      "name": "message",
+      "type": "string",
+      "required": true,
+      "description": "Message content"
+    },
+    {
+      "name": "priority",
+      "type": "string",
+      "required": false,
+      "default": "normal",
+      "description": "low, normal, high, urgent"
+    }
+  ],
+  "outputs": {
+    "delivered": "Boolean delivery status",
+    "messageId": "Unique message identifier",
+    "timestamp": "Delivery timestamp",
+    "cost": "Cost of delivery",
+    "revenue": "Revenue from this notification"
+  },
+  "revenueModel": "per-use",
+  "revenueEstimate": 0.50,
+  "priority": "high",
+  "targetClients": ["marketing-teams", "crm-systems", "alert-systems"]
+}

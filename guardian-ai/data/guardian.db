@@ -1,0 +1,833 @@
+{
+  "users": [
+    {
+      "id": "04a3faf4-6978-4878-a602-b37c8e2c12d5",
+      "email": "user17731682520510@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.051Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "8c3fa0d5-890a-41e7-ae6d-3e61bae07763",
+      "email": "user17731682520511@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.051Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "49770aba-c3ac-4cc1-859d-053c09aad98c",
+      "email": "user17731682520512@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.051Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "c1b26fc6-8307-4b91-ae0d-807197ff967a",
+      "email": "user17731682520513@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.051Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "0fe5e421-abd8-412b-959a-d80275ee69ee",
+      "email": "user17731682520524@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "00838c6f-5ce9-4a35-850d-bdcb162dd2de",
+      "email": "user17731682520525@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "007f60be-c806-4e14-8e95-be911c0a7a8b",
+      "email": "user17731682520526@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "e38419ef-ad2e-4240-972b-b1b3ba99b68f",
+      "email": "user17731682520527@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "b25f8580-e6b7-4431-b90f-bbad7aed6311",
+      "email": "user17731682520528@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "02ba06db-5c04-4ca8-bb0f-999a40f6b52f",
+      "email": "user17731682520529@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "d0dd7b74-2737-4194-ba3b-f31c02921b78",
+      "email": "user177316825205210@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "7d8f723a-6aea-44b9-bc05-370aeaa3c6b8",
+      "email": "user177316825205211@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "b9ef22dd-3f23-4bf7-b4cf-1252886d8b71",
+      "email": "user177316825205212@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "a3574929-be89-4f5e-9e69-aba7ed348e48",
+      "email": "user177316825205213@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "47b8bc29-2af4-4c48-9b12-502f8eb45bda",
+      "email": "user177316825205214@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "ded6ee86-457b-4708-8837-0db51e8dfe21",
+      "email": "user177316825205215@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "f0a3ee78-0e72-4687-b2cf-dcc9317f24dc",
+      "email": "user177316825205216@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "66caf97e-1085-4620-ac11-8185932f5d0e",
+      "email": "user177316825205217@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "b473b853-f71c-4710-ac01-9622f1510219",
+      "email": "user177316825205218@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "c4bd3c07-4749-4cfe-8f4c-7cbe9c6b5a41",
+      "email": "user177316825205219@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.052Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "a648ddc2-add1-4ba0-bb56-23e55b3bda14",
+      "email": "user177316825205220@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.053Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "24f7c88c-e962-431b-8ee6-45950b9402f5",
+      "email": "user177316825205321@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.053Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "98ecf213-9382-45ff-b3eb-8283ad27aa7a",
+      "email": "user177316825205322@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.053Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "7684e26c-fe79-4c1c-b82b-cc20f3b8abc8",
+      "email": "user177316825205323@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.053Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "4a7f1152-86a3-4482-8939-e20a267d2025",
+      "email": "user177316825205324@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.053Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "d162dd2b-4b2c-4b00-97bd-f86ca0544a2b",
+      "email": "user177316825205325@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T18:44:12.053Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "19ca6648-c8c8-45c8-bd26-5d057df26fe0",
+      "email": "user17731718520550@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.055Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "f841f9d2-a825-49b1-a99c-8469acac770c",
+      "email": "user17731718520551@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.055Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "9ddbf2c8-b044-491b-bcd5-9f297c021dde",
+      "email": "user17731718520552@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.055Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "06f14316-89ec-41ab-b3d0-5dae3acafdd5",
+      "email": "user17731718520553@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.055Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "1974994c-3779-4598-b587-d42e8ed02bd5",
+      "email": "user17731718520554@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.055Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "b0dc105e-b0cf-48c9-bf2d-2d114de8231c",
+      "email": "user17731718520555@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.055Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "c6ef19ae-4bef-4422-8507-e4f983b58aba",
+      "email": "user17731718520556@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.055Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "14288eb6-4bf7-4b88-a03e-d45047a3150e",
+      "email": "user17731718520567@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "b1a840d8-dedf-4e75-815f-f679c7c50107",
+      "email": "user17731718520568@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "65a36477-8e1e-442c-8bd5-c68f484ba1b6",
+      "email": "user17731718520569@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "b2d9e8d7-910e-4e9b-aa62-b0699f25bde3",
+      "email": "user177317185205610@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "f231d99d-3a4c-4a1b-ad87-a4aec850a4c0",
+      "email": "user177317185205611@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "0d2d1c96-5756-4331-b019-cbcec3661ee3",
+      "email": "user177317185205612@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "bdc922ca-4a7e-48da-b369-92e3a986fa12",
+      "email": "user177317185205613@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "49c40548-298c-483a-b2e0-89e3da4b1857",
+      "email": "user177317185205614@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "46861f40-8f74-4dbf-8be2-635d6775c96f",
+      "email": "user177317185205615@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "0969f124-e964-44a9-8a54-765ae85e9533",
+      "email": "user177317185205616@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "411fd7e1-7460-4c1f-bd9e-808841c358e1",
+      "email": "user177317185205617@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "0fe0dba6-448e-478c-b1a7-d1ba065a25df",
+      "email": "user177317185205618@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "7901d3bb-a37d-4777-9066-16d00d58c3c5",
+      "email": "user177317185205619@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "ce95f9f0-dc75-4ec3-920a-96350de9c233",
+      "email": "user177317185205620@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "20094805-67f9-4952-92db-610850836da9",
+      "email": "user177317185205621@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "0eec51db-f5de-4639-b61e-d23431b81430",
+      "email": "user177317185205622@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "b4489ebf-1740-42cb-8adb-934f7f8dd50f",
+      "email": "user177317185205623@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "d1b545fa-6ed9-40c5-a323-1fb0ff42f61b",
+      "email": "user177317185205624@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "premium",
+      "optedIn": true
+    },
+    {
+      "id": "d4ef5fe2-6657-4378-b831-ec321ccb4ed4",
+      "email": "user177317185205625@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    },
+    {
+      "id": "c04b6014-01d8-4f55-89ae-af5978eb2339",
+      "email": "user177317185205626@example.com",
+      "name": "Anonymous User",
+      "createdAt": "2026-03-10T19:44:12.056Z",
+      "subscription": "free",
+      "optedIn": true
+    }
+  ],
+  "revenue": 3311.88,
+  "transactions": [
+    {
+      "id": "a989504c-892b-4986-8958-307e2f8a1ec4",
+      "userId": null,
+      "type": "service",
+      "amount": 28.37,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "0f0c3d99-1f43-4a0c-999d-01583f4ba6a3",
+      "userId": null,
+      "type": "service",
+      "amount": 111.69,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "62caf3e9-6c39-42f7-92d4-0d090d343cda",
+      "userId": null,
+      "type": "service",
+      "amount": 36.58,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "42beca5c-fa32-4306-a10b-6992dcde027d",
+      "userId": null,
+      "type": "service",
+      "amount": 74.95,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "919e71d0-cccb-4234-b3ab-ea62151f13f2",
+      "userId": null,
+      "type": "service",
+      "amount": 69.4,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "1fd0d586-538e-45c1-b25a-a814f6f90f07",
+      "userId": null,
+      "type": "service",
+      "amount": 31.52,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "bdbec444-eb51-48c3-86b8-812a82ba7c37",
+      "userId": null,
+      "type": "service",
+      "amount": 37.44,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "480be188-fc32-4e21-98d1-5a3d9b79c63e",
+      "userId": null,
+      "type": "service",
+      "amount": 59.08,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "88b46c35-5d13-4007-9fb0-88c3bcab8ed9",
+      "userId": null,
+      "type": "service",
+      "amount": 68.25,
+      "timestamp": "2026-03-10T18:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "9efe4c5a-44cb-44ba-8128-4aad80297cd7",
+      "userId": null,
+      "type": "service",
+      "amount": 116.39,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "4445fb43-707b-4081-a51a-b33c3fc50413",
+      "userId": null,
+      "type": "service",
+      "amount": 42.14,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "6e8f590a-bab0-41e3-a319-451d87b98fa6",
+      "userId": null,
+      "type": "service",
+      "amount": 22.9,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "9d07d05c-7727-4c94-aa68-dbfc086ad90a",
+      "userId": null,
+      "type": "service",
+      "amount": 64.1,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "001b2eb0-1fff-43b1-8d14-d69176637702",
+      "userId": null,
+      "type": "service",
+      "amount": 118.94,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "5d0bd7eb-fb0c-45d2-a9c4-9705303d27e4",
+      "userId": null,
+      "type": "service",
+      "amount": 63.21,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "58566976-82fc-41af-8eef-0ec55030d827",
+      "userId": null,
+      "type": "service",
+      "amount": 81.47,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "826d9ec1-9620-4d26-a981-365a278e6727",
+      "userId": null,
+      "type": "service",
+      "amount": 106.96,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "53f4186e-e218-490a-a468-fc4f2169e6c3",
+      "userId": null,
+      "type": "service",
+      "amount": 85.12,
+      "timestamp": "2026-03-10T18:44:12.057Z",
+      "status": "completed"
+    },
+    {
+      "id": "c9d9f268-dcff-4d83-9c80-501c983d25ed",
+      "userId": null,
+      "type": "service",
+      "amount": 28.85,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "ab3f4de1-d302-4f5a-bda6-b22341dbe015",
+      "userId": null,
+      "type": "service",
+      "amount": 78.74,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "2cb5f453-1fa8-4d9a-a758-5f7dfacbc5e5",
+      "userId": null,
+      "type": "service",
+      "amount": 87.11,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "68d7c4eb-7f7b-485c-9767-9a032a7e2853",
+      "userId": null,
+      "type": "service",
+      "amount": 114.47,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "9fb1722c-bfcc-47f5-bef3-844787ad5686",
+      "userId": null,
+      "type": "service",
+      "amount": 47.08,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "639c688d-14e4-490c-a7ac-1ff2243b2256",
+      "userId": null,
+      "type": "service",
+      "amount": 90.68,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "2d8b1a3d-3d23-4d06-8e4d-925ee72595c2",
+      "userId": null,
+      "type": "service",
+      "amount": 78.78,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "266c9af1-1bf2-4dc5-806c-f74b285a426b",
+      "userId": null,
+      "type": "service",
+      "amount": 34.32,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "c2417667-fe50-481f-aa7c-cfecee89f388",
+      "userId": null,
+      "type": "service",
+      "amount": 90.65,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "70116d5a-dec2-4422-b029-a43d5e38a7a9",
+      "userId": null,
+      "type": "service",
+      "amount": 38.93,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "2dbd7aa8-3afa-439c-a1a5-f5eb6668d5a4",
+      "userId": null,
+      "type": "service",
+      "amount": 51.76,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "65e0efaa-5674-470f-86b6-3857e4695999",
+      "userId": null,
+      "type": "service",
+      "amount": 59.8,
+      "timestamp": "2026-03-10T19:14:12.060Z",
+      "status": "completed"
+    },
+    {
+      "id": "2dea76ac-bd75-43c3-8857-0c9f56713f8a",
+      "userId": "f841f9d2-a825-49b1-a99c-8469acac770c",
+      "type": "renewal",
+      "amount": 49.99,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "9095e4e4-0f6e-4248-b0de-d0ef0ff3a548",
+      "userId": "b0dc105e-b0cf-48c9-bf2d-2d114de8231c",
+      "type": "renewal",
+      "amount": 49.99,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "231dc0a1-8c10-4bc7-aae6-54db7b5f591b",
+      "userId": "b2d9e8d7-910e-4e9b-aa62-b0699f25bde3",
+      "type": "upsell",
+      "amount": 49.99,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "43ae734c-feb9-4bef-b881-ad2198f90dd6",
+      "userId": null,
+      "type": "service",
+      "amount": 33.73,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "cef9e3e8-e4c3-430e-a3a8-4b79b12d94f8",
+      "userId": null,
+      "type": "service",
+      "amount": 48,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "9dfb4fb3-0f61-4fe6-b548-5a60ee6fa32a",
+      "userId": null,
+      "type": "service",
+      "amount": 76.39,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "155c7210-66b8-4df4-899d-12d9f4c7a45a",
+      "userId": null,
+      "type": "service",
+      "amount": 69.37,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "92a07974-980f-4326-94e8-ac54acc863a4",
+      "userId": null,
+      "type": "service",
+      "amount": 104.56,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "193c4802-fd08-4b4d-a526-1eb162911b56",
+      "userId": null,
+      "type": "service",
+      "amount": 35.43,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "8c84d162-bd5f-4ff4-974c-df88da25a634",
+      "userId": null,
+      "type": "service",
+      "amount": 51.49,
+      "timestamp": "2026-03-10T19:44:12.066Z",
+      "status": "completed"
+    },
+    {
+      "id": "9790ebcb-f86d-487a-8dd3-ccb81fa9945b",
+      "userId": "46861f40-8f74-4dbf-8be2-635d6775c96f",
+      "type": "renewal",
+      "amount": 49.99,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "4b4b5ac2-c918-49fb-9fbd-41ec2a749007",
+      "userId": "ce95f9f0-dc75-4ec3-920a-96350de9c233",
+      "type": "renewal",
+      "amount": 49.99,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "a6e66c04-ea33-434f-96f3-645e8510b23e",
+      "userId": "0fe0dba6-448e-478c-b1a7-d1ba065a25df",
+      "type": "upsell",
+      "amount": 49.99,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "05b66d04-3ce0-4cf9-8282-968ba26bb2e2",
+      "userId": null,
+      "type": "service",
+      "amount": 70.93,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "b981f0b7-571c-4ef1-9532-1acc881fe28c",
+      "userId": null,
+      "type": "service",
+      "amount": 79.54,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "08c8b930-83c5-417a-8b5c-c2aaba13185f",
+      "userId": null,
+      "type": "service",
+      "amount": 40.14,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "507e4b27-c6b4-425b-ba5b-20a6735b6fa7",
+      "userId": null,
+      "type": "service",
+      "amount": 116.39,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "46bda842-b22f-4d80-94a7-c1943eca93c4",
+      "userId": null,
+      "type": "service",
+      "amount": 116.67,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "5b4292b0-37aa-4f42-ad54-850968e826b6",
+      "userId": null,
+      "type": "service",
+      "amount": 32.63,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    },
+    {
+      "id": "864372b6-6246-45cc-a65d-90e6f606db63",
+      "userId": null,
+      "type": "service",
+      "amount": 116.99,
+      "timestamp": "2026-03-10T20:14:12.090Z",
+      "status": "completed"
+    }
+  ],
+  "sessions": [],
+  "opportunities": []
+}

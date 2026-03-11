@@ -1,0 +1,38 @@
+{
+  "name": "E-Commerce Price Monitor",
+  "type": "monitor",
+  "description": "Monitors competitor prices across e-commerce platforms and sends alerts when prices change. Generates recurring revenue from subscription clients.",
+  "inputs": [
+    {
+      "name": "productUrl",
+      "type": "string",
+      "required": true,
+      "description": "URL of product to monitor"
+    },
+    {
+      "name": "platforms",
+      "type": "array",
+      "required": false,
+      "default": ["amazon", "ebay", "etsy"],
+      "description": "Platforms to monitor"
+    },
+    {
+      "name": "checkInterval",
+      "type": "number",
+      "required": false,
+      "default": 3600,
+      "description": "Check interval in seconds"
+    }
+  ],
+  "outputs": {
+    "currentPrices": "Current prices from all platforms",
+    "priceHistory": "Historical price data with timestamps",
+    "alerts": "Price change notifications",
+    "recommendations": "Pricing recommendations based on market",
+    "revenue": "Subscription revenue generated"
+  },
+  "revenueModel": "subscription",
+  "revenueEstimate": 100,
+  "priority": "high",
+  "targetClients": ["ecommerce-stores", "retail-brands", "dropshippers"]
+}

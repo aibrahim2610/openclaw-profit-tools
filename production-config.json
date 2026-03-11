@@ -1,0 +1,17 @@
+{
+  "productionMode": true,
+  "rateLimit": {
+    "enabled": true,
+    "maxRequests": 100,
+    "timeWindow": 60000,
+    "retryDelay": 2000,
+    "maxRetries": 5
+  },
+  "sessionTimeout": 3600000,
+  "cacheExpiry": 300000,
+  "monitoring": true,
+  "revenue": {
+    "perToolPerCycle": 2,
+    "cycleInterval": 30000
+  }
+}

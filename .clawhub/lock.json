@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "skills": {
+    "agentmem": {
+      "version": "2.4.0",
+      "installedAt": 1773165400242
+    },
+    "web-search-free": {
+      "version": "1.0.1",
+      "installedAt": 1773165414132
+    },
+    "free-search-aggregator": {
+      "version": "1.3.0",
+      "installedAt": 1773165529739
+    },
+    "ecommerce-ad-copy-generator-free": {
+      "version": "1.0.0",
+      "installedAt": 1773165463455
+    },
+    "invoice-template": {
+      "version": "1.0.0",
+      "installedAt": 1773165514167
+    },
+    "client-tracker": {
+      "version": "1.0.2",
+      "installedAt": 1773165495625
+    },
+    "freelance-automation-gig": {
+      "version": "1.0.0",
+      "installedAt": 1773165473170
+    },
+    "free-resource": {
+      "version": "0.1.0",
+      "installedAt": 1773165047831
+    },
+    "crawl4ai-skill": {
+      "version": "1.0.7",
+      "installedAt": 1773165431375
+    },
+    "trading-card-specialist": {
+      "version": "2.0.3",
+      "installedAt": 1773165453156
+    },
+    "browsecraft": {
+      "version": "0.1.3",
+      "installedAt": 1773165551277
+    },
+    "super-brain": {
+      "version": "1.0.0",
+      "installedAt": 1773165565549
+    },
+    "zixun": {
+      "version": "0.1.0",
+      "installedAt": 1773165587452
+    }
+  }
+}

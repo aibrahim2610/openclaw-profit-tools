@@ -1,0 +1,26 @@
+{
+  "name": "openguardian",
+  "version": "1.0.0",
+  "description": "Automated profit system using OpenClaw and docling",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "install": "npm install",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "openclaw": "latest",
+    "express": "^5.2.1",
+    "nodemailer": "^6.9.0",
+    "stripe": "^14.0.0",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0",
+    "cron": "^0.8.2",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

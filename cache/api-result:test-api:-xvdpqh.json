@@ -1,0 +1,13 @@
+{
+  "key": "api-result:test-api:-xvdpqh",
+  "data": {
+    "success": true,
+    "data": {
+      "message": "API call successful",
+      "data": 0.16544503179512904
+    },
+    "error": null,
+    "latency": 297.6242786418126
+  },
+  "timestamp": 1773185162855
+}

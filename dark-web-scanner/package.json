@@ -1,0 +1,41 @@
+{
+  "name": "dark-web-scanner",
+  "version": "1.0.0",
+  "description": "Scans dark web for data breaches, collects information about leaks and their owners, then contacts them to offer remediation services for a fee",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "scan": "node scan-leaks.js",
+    "analyze": "node analyze-leaks.js",
+    "contact": "node contact-owners.js",
+    "monitor": "node monitor-leaks.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "puppeteer": "^21.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "dotenv": "^16.0.3",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.7",
+    "crypto": "^1.0.1",
+    "uuid": "^9.0.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.6"
+  },
+  "keywords": [
+    "dark-web",
+    "security",
+    "breach-detection",
+    "cybersecurity",
+    "data-leaks",
+    "breach-notification"
+  ],
+  "author": "Guardian-AI",
+  "license": "MIT"
+}

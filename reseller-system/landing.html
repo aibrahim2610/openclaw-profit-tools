@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenRouter Credits - AI API Reseller</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --primary-dark: #3730a3;
+      --success: #10b981;
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #111827;
+      --text-light: #6b7280;
+    }
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+    
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    header {
+      text-align: center;
+      padding: 3rem 0;
+    }
+    
+    h1 { font-size: 2.5rem; margin-bottom: 1rem; color: var(--primary); }
+    .subtitle { font-size: 1.25rem; color: var(--text-light); max-width: 600px; margin: 0 auto 2rem; }
+    
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin: 3rem 0;
+    }
+    
+    .pricing-card {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .pricing-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    }
+    
+    .price { font-size: 2.5rem; font-weight: bold; color: var(--primary); }
+    .price span { font-size: 1rem; color: var(--text-light); }
+    .credits { color: var(--success); font-weight: 600; margin: 0.5rem 0; }
+    .features { list-style: none; margin: 1.5rem 0; text-align: left; }
+    .features li { padding: 0.5rem 0; border-bottom: 1px solid #e5e7eb; }
+    .features li:last-child { border-bottom: none; }
+    
+    .btn {
+      display: inline-block;
+      background: var(--primary);
+      color: white;
+      padding: 0.75rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s;
+      width: 100%;
+    }
+    
+    .btn:hover { background: var(--primary-dark); }
+    .btn:disabled { background: var(--text-light); cursor: not-allowed; }
+    
+    .demo-badge {
+      background: var(--success);
+      color: white;
+      padding: 0.25rem 1rem;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      display: inline-block;
+      margin-bottom: 1rem;
+    }
+    
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      color: var(--text-light);
+      border-top: 1px solid #e5e7eb;
+      margin-top: 3rem;
+    }
+    
+    .status {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #ecfdf5;
+      border-radius: 8px;
+      color: #065f46;
+    }
+    
+    .api-key-section {
+      background: var(--card);
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    
+    #apiKeyInput {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border: 1px solid #d1d5db;
+      border-radius: 4px;
+    }
+    
+    @media (max-width: 768px) {
+      .container { padding: 1rem; }
+      h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="demo-badge">🚀 Freemium Demo - No Payment Required</span>
+      <h1>OpenRouter Credits Reseller</h1>
+      <p class="subtitle">
+        Buy AI API credits at wholesale prices. Use with any OpenRouter-supported model (GPT-4, Claude, Gemini). 
+        Free tier available for testing.
+      </p>
+    </header>
+
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Starter</h3>
+        <div class="price">$10</div>
+        <div class="credits">≈ 100 credits</div>
+        <p>Perfect for testing</p>
+        <ul class="features">
+          <li>✅ 100 AI credits</li>
+          <li>✅ Access to all models</li>
+          <li>✅ Instant delivery</li>
+          <li>✅ Free demo available</li>
+        </ul>
+        <button class="btn" onclick="purchase(10)">Get Started</button>
+      </div>
+
+      <div class="pricing-card" style="border: 2px solid var(--primary);">
+        <div style="color: var(--primary); font-weight: bold; margin-bottom: 0.5rem;">🔥 Most Popular</div>
+        <h3>Professional</h3>
+        <div class="price">$50</div>
+        <div class="credits">≈ 500 credits</div>
+        <p>For serious users</p>
+        <ul class="features">
+          <li>✅ 500 AI credits</li>
+          <li>✅ Priority support</li>
+          <li>✅ All models included</li>
+          <li>✅ Volume discount</li>
+        </ul>
+        <button class="btn" onclick="purchase(50)">Buy Now</button>
+      </div>
+
+      <div class="pricing-card">
+        <h3>Enterprise</h3>
+        <div class="price">$100</div>
+        <div class="credits">≈ 1000 credits</div>
+        <p>For teams & businesses</p>
+        <ul class="features">
+          <li>✅ 1000 AI credits</li>
+          <li>✅ Custom integrations</li>
+          <li>✅ SLA guarantee</li>
+          <li>✅ Dedicated support</li>
+        </ul>
+        <button class="btn" onclick="purchase(100)">Contact Sales</button>
+      </div>
+    </div>
+
+    <div class="api-key-section">
+      <h3>🔑 Get Your API Key</h3>
+      <p>Enter your email to get your API key and start using AI:</p>
+      <input type="email" id="emailInput" placeholder="Enter your email" style="width: 100%; padding: 0.5rem; margin: 1rem 0;">
+      <button class="btn" onclick="getApiKey()">Generate API Key</button>
+      <div id="apiKeyResult" style="margin-top: 1rem;"></div>
+    </div>
+
+    <div class="status" id="status">
+      ℹ️ <strong>Demo Mode Active:</strong> No payment required. Credits are automatically granted for testing.
+    </div>
+
+    <footer>
+      <p>Powered by OpenRouter • Built with Guardian-AI</p>
+      <p>Need help? Contact: admin@guardian-ai.example.com</p>
+    </footer>
+  </div>
+
+  <script>
+    const API_BASE = window.location.origin;
+    let currentUser = null;
+
+    async function purchase(amount) {
+      try {
+        const email = prompt('Enter your email for the demo:');
+        if (!email) return;
+
+        const response = await fetch('/api/purchase', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: generateUserId(email),
+            email: email,
+            amount: amount
+          })
+        });
+
+        const data = await response.json();
+        
+        if (data.success) {
+          currentUser = data.user;
+          alert(`✅ Success! ${amount} credits added to your account.\n\nTotal credits: ${data.user.credits}\nTotal purchased: $${data.user.purchased}`);
+        } else {
+          alert('❌ Error: ' + (data.error || 'Unknown error'));
+        }
+      } catch (error) {
+        alert('❌ Network error: ' + error.message);
+      }
+    }
+
+    async function getApiKey() {
+      const email = document.getElementById('emailInput').value;
+      if (!email) {
+        alert('Please enter your email');
+        return;
+      }
+
+      try {
+        const response = await fetch('/api/purchase', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: generateUserId(email),
+            email: email,
+            amount: 10 // Free starter credits
+          })
+        });
+
+        const data = await response.json();
+        
+        if (data.success) {
+          const apiKey = btoa(data.user.userId + ':' + Date.now());
+          document.getElementById('apiKeyResult').innerHTML = `
+            <strong>Your API Key:</strong> 
+            <code style="background: #f3f4f6; padding: 0.25rem 0.5rem; border-radius: 4px; font-family: monospace;">
+              ${apiKey}
+            </code>
+            <br><small>Save this key. You'll use it to call the API.</small>
+          `;
+        }
+      } catch (error) {
+        alert('Error: ' + error.message);
+      }
+    }
+
+    function generateUserId(email) {
+      return 'user_' + btoa(email).replace(/[^a-zA-Z0-9]/g, '_').substring(0, 20);
+    }
+
+    // Check balance on load
+    window.onload = async () => {
+      try {
+        const response = await fetch('/health');
+        if (response.ok) {
+          document.getElementById('status').innerHTML = '✅ System online. Ready to serve.';
+        }
+      } catch (error) {
+        console.error('Health check failed:', error);
+      }
+    };
+  </script>
+</body>
+</html>

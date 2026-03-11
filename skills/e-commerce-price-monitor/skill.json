@@ -1,0 +1,27 @@
+{
+  "name": "E-Commerce Price Monitor",
+  "description": "Monitors competitor prices across e-commerce platforms",
+  "version": "1.0.0",
+  "author": "Claude Code Tool Factory",
+  "category": "monitor",
+  "revenue": true,
+  "revenuePerUse": 100,
+  "requires": [
+    "openclaw",
+    "agentmem"
+  ],
+  "inputs": [
+    "productUrl",
+    "platforms",
+    "checkInterval"
+  ],
+  "outputs": [
+    "currentPrices",
+    "priceHistory",
+    "alerts",
+    "recommendations"
+  ],
+  "factoryGenerated": true,
+  "factoryId": "acb10815-6eea-441e-8033-29bf81c72fdd",
+  "createdAt": "2026-03-10T23:32:14.161Z"
+}

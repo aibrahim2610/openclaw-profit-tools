@@ -1,0 +1,8 @@
+{
+  "key": "rate-limit:test",
+  "data": {
+    "count": 10,
+    "timestamp": 1773185190995
+  },
+  "timestamp": 1773185217634
+}

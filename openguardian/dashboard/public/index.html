@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DataGuardian - حماية بياناتك</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap');
+    body { font-family: 'Tajawal', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <nav class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">🛡️ DataGuardian</h1>
+      <div class="flex gap-4">
+        <a href="#check" class="hover:underline">تحقق الآن</a>
+        <a href="#pricing" class="hover:underline">خطط الأسعار</a>
+        <a href="#login" class="hover:underline">تسجيل الدخول</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto p-4">
+    <!-- Hero Section -->
+    <section class="text-center py-16">
+      <h2 class="text-4xl font-bold mb-4 text-gray-800">هل بريدك الإلكتروني في خطر؟</h2>
+      <p class="text-xl text-gray-600 mb-8">اكتشف التسريبات الأمنية وتلقى تنبيهات فورية</p>
+      
+      <div class="max-w-md mx-auto bg-white p-6 rounded-lg shadow-lg">
+        <input type="email" id="emailInput" placeholder="أدخل بريدك الإلكتروني" class="w-full p-3 border rounded mb-4">
+        <button onclick="checkEmail()" class="w-full bg-blue-600 text-white p-3 rounded hover:bg-blue-700 transition">
+          تحقق مجاني
+        </button>
+        <p id="result" class="mt-4 hidden"></p>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16">
+      <h2 class="text-3xl font-bold text-center mb-12">خطط الأسعار</h2>
+      <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <!-- Free Plan -->
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-2xl font-bold mb-2">مجاني</h3>
+          <p class="text-blue-600 text-3xl font-bold mb-4">$0/شهر</p>
+          <ul class="space-y-2 mb-6">
+            <li>✓ مراقبة بريد واحد</li>
+            <li>✓ تنبيهات أساسية</li>
+            <li>✗ إزالة البيانات</li>
+          </ul>
+          <button class="w-full p-3 border rounded hover:bg-gray-50">ابدأ مجاناً</button>
+        </div>
+
+        <!-- Basic Plan -->
+        <div class="bg-white p-6 rounded-lg shadow border-2 border-blue-600">
+          <div class="bg-blue-100 text-blue-800 text-sm font-bold px-3 py-1 rounded-full inline-block mb-2">الأكثر شيوعاً</div>
+          <h3 class="text-2xl font-bold mb-2">Basic</h3>
+          <p class="text-blue-600 text-3xl font-bold mb-4">$4.99/شهر</p>
+          <ul class="space-y-2 mb-6">
+            <li>✓ مراقبة 5 بريدات</li>
+            <li>✓ تنبيهات فورية</li>
+            <li>✓ إزالة من 5 مواقع</li>
+          </ul>
+          <button class="w-full p-3 bg-blue-600 text-white rounded hover:bg-blue-700">اشترك الآن</button>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-2xl font-bold mb-2">Premium</h3>
+          <p class="text-blue-600 text-3xl font-bold mb-4">$14.99/شهر</p>
+          <ul class="space-y-2 mb-6">
+            <li>✓ مراقبة غير محدودة</li>
+            <li>✓ تنبيهات فورية + SMS</li>
+            <li>✓ إزالة من 50+ موقع</li>
+            <li>✓ دعم VIP</li>
+          </ul>
+          <button class="w-full p-3 bg-blue-600 text-white rounded hover:bg-blue-700">اشترك الآن</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    async function checkEmail() {
+      const email = document.getElementById('emailInput').value;
+      const result = document.getElementById('result');
+      
+      if (!email) {
+        result.textContent = 'الرجاء إدخال بريد إلكتروني';
+        result.className = 'mt-4 text-red-600';
+        result.hidden = false;
+        return;
+      }
+      
+      try {
+        const response = await fetch('/api/check', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email })
+        });
+        
+        const data = await response.json();
+        
+        if (data.breachesFound) {
+          result.innerHTML = `
+            <div class="bg-red-50 border border-red-200 rounded p-4">
+              <p class="text-red-800 font-bold">⚠️ تم اكتشاف ${data.breachCount} تسريب(ات)</p>
+              <p class="text-red-600 mt-2">্যান্টি بياناتك معرضة للخطر. اشترك الآن لحمايتها.</p>
+            </div>
+          `;
+        } else {
+          result.innerHTML = `
+            <div class="bg-green-50 border border-green-200 rounded p-4">
+              <p class="text-green-800 font-bold">✅ لم يتم العثور على تسريبات</p>
+              <p class="text-green-600 mt-2">بياناتك آمنة حالياً. ننصحك بالاشتراك للمراقبة المستمرة.</p>
+            </div>
+          `;
+        }
+        result.hidden = false;
+      } catch (error) {
+        result.textContent = 'حدث خطأ، حاول مرة أخرى';
+        result.className = 'mt-4 text-red-600';
+        result.hidden = false;
+      }
+    }
+  </script>
+</body>
+</html>

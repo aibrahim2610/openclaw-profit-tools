@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-03-11T18:35:56.701Z",
+  "cycle": 5,
+  "revenue": {
+    "total": 31.468681240357675,
+    "agents": 0,
+    "tools": 31.468681240357675
+  },
+  "stats": {
+    "startTime": 1773246956565,
+    "toolsCreated": 0,
+    "agentsActivated": 0,
+    "totalRevenue": 145.30553412802252,
+    "transactions": 5,
+    "uptime": 5400200,
+    "lastCycle": {
+      "timestamp": "2026-03-11T18:35:56.700Z",
+      "revenue": 31.468681240357675,
+      "duration": 52
+    },
+    "errors": 4
+  },
+  "config": {
+    "revenueCycleInterval": 1800000,
+    "toolGenerationBatchSize": 3,
+    "agentParallelism": 5,
+    "autoExpand": true,
+    "maxTools": 100,
+    "healthCheckInterval": 300000,
+    "logLevel": "info"
+  }
+}

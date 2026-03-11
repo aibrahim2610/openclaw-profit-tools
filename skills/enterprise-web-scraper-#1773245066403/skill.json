@@ -1,0 +1,24 @@
+{
+  "name": "Enterprise Web Scraper #1773245066403",
+  "description": "High-volume enterprise web scraper with proxy rotation",
+  "version": "1.0.0",
+  "author": "Claude Code Tool Factory",
+  "category": "web-scraper",
+  "revenue": true,
+  "revenuePerUse": 75,
+  "requires": [
+    "openclaw",
+    "agentmem"
+  ],
+  "inputs": [
+    "urls",
+    "options"
+  ],
+  "outputs": [
+    "data",
+    "metadata"
+  ],
+  "factoryGenerated": true,
+  "factoryId": "eb06b79f-9d90-4cc5-b6c8-fcc6fdcc4142",
+  "createdAt": "2026-03-11T16:04:26.411Z"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Rapid Prototyper",
+  "description": "Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks",
+  "version": "1.0.0",
+  "author": "Agency-Agents Integration",
+  "category": "engineering",
+  "revenue": true,
+  "requires": [
+    "openclaw",
+    "agentmem"
+  ]
+}

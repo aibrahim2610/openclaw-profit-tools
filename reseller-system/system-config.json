@@ -1,0 +1,76 @@
+{
+  "name": "OpenRouter Reseller System",
+  "version": "1.0.0",
+  "status": "active",
+  "revenueModel": "api_reseller",
+  "description": "Sells OpenRouter AI credits automatically with profit margin",
+  "setupComplete": true,
+  
+  "paths": {
+    "main": "/root/.openclaw/workspace/reseller-system/index.js",
+    "demo": "/root/.openclaw/workspace/reseller-system/demo-server.js",
+    "landing": "/root/.openclaw/workspace/reseller-system/landing.html",
+    "packageJson": "/root/.openclaw/workspace/reseller-system/package.json"
+  },
+  
+  "config": {
+    "port": 3001,
+    "demoPort": 3000,
+    "profitMarginPercent": 5,
+    "payoutThreshold": 50,
+    "autoPayout": false,
+    "demoMode": true,
+    "siteUrl": "http://localhost:3000"
+  },
+  
+  "revenueRates": {
+    "creditsPerDollar": 10,
+    "costPerCredit": 0.095,
+    "sellPricePerCredit": 0.10,
+    "profitPerCredit": 0.005
+  },
+  
+  "requiredEnvVars": [
+    "OPENROUTER_API_KEY"
+  ],
+  
+  "optionalEnvVars": [
+    "SERVER_SECRET",
+    "STRIPE_SECRET_KEY",
+    "STRIPE_WEBHOOK_SECRET",
+    "ORANGE_MONEY_API_KEY",
+    "ORANGE_MONEY_MERCHANT_ID"
+  ],
+  
+  "dependencies": [
+    "express",
+    "node-fetch",
+    "cors",
+    "helmet",
+    "express-rate-limit",
+    "dotenv"
+  ],
+  
+  "endpoints": {
+    "health": "/health",
+    "pricing": "/api/pricing",
+    "purchase": "/api/purchase",
+    "chatCompletions": "/api/chat/completions",
+    "adminRevenue": "/admin/revenue",
+    "adminPayout": "/admin/payout",
+    "webhookStripe": "/webhooks/stripe"
+  },
+  
+  "deployment": {
+    "startCommand": "node index.js",
+    "demoCommand": "node demo-server.js",
+    "healthCheckUrl": "http://localhost:3001/health"
+  },
+  
+  "notes": [
+    "Run 'node demo-server.js' first to see the landing page",
+    "Demo mode grants credits without payment",
+    "For real revenue: add Stripe keys to .env",
+    "For payouts: add Orange Money/Fawry keys"
+  ]
+}

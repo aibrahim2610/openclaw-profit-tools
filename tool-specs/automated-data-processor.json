@@ -1,0 +1,35 @@
+{
+  "name": "Automated Data Processor",
+  "type": "data-processor",
+  "description": "High-throughput data processing and transformation engine. Processes millions of records per hour. Revenue based on data volume.",
+  "inputs": [
+    {
+      "name": "data",
+      "type": "array",
+      "required": true,
+      "description": "Array of data records to process"
+    },
+    {
+      "name": "processorType",
+      "type": "string",
+      "required": true,
+      "description": "clean, enrich, analyze, transform"
+    },
+    {
+      "name": "config",
+      "type": "object",
+      "required": false,
+      "description": "Processing configuration options"
+    }
+  ],
+  "outputs": {
+    "processed": "Processed data array",
+    "stats": "Processing statistics (count, duration, errors)",
+    "insights": "Generated insights from data",
+    "revenue": "Revenue from this processing job"
+  },
+  "revenueModel": "per-gb",
+  "revenueEstimate": 5,
+  "priority": "high",
+  "targetClients": ["data-analytics", "fintech", "healthcare"]
+}

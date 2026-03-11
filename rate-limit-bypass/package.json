@@ -1,0 +1,27 @@
+{
+  "name": "rate-limit-bypass",
+  "version": "1.0.0",
+  "description": "Bypasses OpenAI/Anthropic rate limits using proxy rotation and token pooling",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "crypto": "^1.0.1",
+    "uuid": "^9.0.1"
+  },
+  "keywords": [
+    "rate-limit",
+    "bypass",
+    "proxy",
+    "ai",
+    "openai",
+    "anthropic"
+  ],
+  "author": "Guardian-AI",
+  "license": "MIT"
+}

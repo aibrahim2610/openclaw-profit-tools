@@ -1,0 +1,36 @@
+{
+  "name": "breach-notifier",
+  "version": "1.0.0",
+  "description": "Legal breach notification service using HIBP and other legitimate APIs. Scans for compromised data and notifies owners with remediation offers.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "scan": "node scan-emails.js",
+    "notify": "node send-notifications.js",
+    "revenue": "node calculate-revenue.js",
+    "monitor": "node monitor.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.7",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "node-cron": "^3.0.3",
+    "uuid": "^9.0.1",
+    "helmet": "^7.0.0",
+    "cors": "^2.8.5"
+  },
+  "keywords": [
+    "breach-notification",
+    "security",
+    "hibp",
+    "data-leak",
+    "remediation",
+    "cybersecurity"
+  ],
+  "author": "Guardian-AI",
+  "license": "MIT"
+}

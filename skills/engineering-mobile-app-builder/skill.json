@@ -1,0 +1,12 @@
+{
+  "name": "Mobile App Builder",
+  "description": "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
+  "version": "1.0.0",
+  "author": "Agency-Agents Integration",
+  "category": "engineering",
+  "revenue": true,
+  "requires": [
+    "openclaw",
+    "agentmem"
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "9f44c13f-99a8-4e14-a76c-c522dc38a39e",
+  "name": "test-session",
+  "data": {
+    "testMode": true,
+    "startTime": 1773185162541
+  },
+  "createdAt": 1773185162542,
+  "lastActivity": 1773185162856,
+  "status": "active",
+  "retries": 0,
+  "currentTask": null,
+  "history": [
+    {
+      "timestamp": 1773185162551,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162552,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162552,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162552,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162553,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162553,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162553,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac O...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162554,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac O...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162554,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162556,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162556,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162556,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac O...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162557,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162557,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162557,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162557,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162558,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162558,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac O...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162558,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185162558,
+      "action": "api-call",
+      "apiName": "test-api",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...",
+      "proxy": "none"
+    }
+  ],
+  "lastApiSuccess": 1773185162856
+}

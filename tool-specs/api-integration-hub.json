@@ -1,0 +1,36 @@
+{
+  "name": "API Integration Hub",
+  "type": "api-integration",
+  "description": "Universal API integration platform that connects clients to any third-party service. Generates revenue per API call processed.",
+  "inputs": [
+    {
+      "name": "targetApi",
+      "type": "string",
+      "required": true,
+      "description": "Target API endpoint URL"
+    },
+    {
+      "name": "method",
+      "type": "string",
+      "required": true,
+      "description": "HTTP method: GET, POST, PUT, DELETE"
+    },
+    {
+      "name": "payload",
+      "type": "object",
+      "required": false,
+      "description": "Request payload data"
+    }
+  ],
+  "outputs": {
+    "response": "API response data",
+    "status": "HTTP status code",
+    "latency": "Response time in ms",
+    "processed": "Data transformation result",
+    "revenue": "Revenue from this API call"
+  },
+  "revenueModel": "per-use",
+  "revenueEstimate": 10,
+  "priority": "medium",
+  "targetClients": ["saas-companies", "startups", "enterprises"]
+}

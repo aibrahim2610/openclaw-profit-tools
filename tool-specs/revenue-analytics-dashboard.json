@@ -1,0 +1,32 @@
+{
+  "name": "Revenue Analytics Dashboard",
+  "type": "analytics",
+  "description": "Real-time revenue analytics and performance monitoring for the profit system. Tracks usage, earnings, and ROI across all tools.",
+  "inputs": [
+    {
+      "name": "timeRange",
+      "type": "string",
+      "required": false,
+      "default": "24h",
+      "description": "Time range: 1h, 24h, 7d, 30d"
+    },
+    {
+      "name": "metrics",
+      "type": "array",
+      "required": false,
+      "description": "Specific metrics to calculate"
+    }
+  ],
+  "outputs": {
+    "totalRevenue": "Total revenue over time range",
+    "topTools": "Highest earning tools ranked",
+    "usagePatterns": "Tool usage trends",
+    "projections": "Revenue projections",
+    "alerts": "Anomaly detection alerts",
+    "dashboards": "Visual dashboard data"
+  },
+  "revenueModel": "internal",
+  "revenueEstimate": 0,
+  "priority": "critical",
+  "targetClients": ["internal-system"]
+}

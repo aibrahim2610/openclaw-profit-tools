@@ -1,0 +1,12 @@
+{
+  "name": "Senior Developer",
+  "description": "Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration",
+  "version": "1.0.0",
+  "author": "Agency-Agents Integration",
+  "category": "engineering",
+  "revenue": true,
+  "requires": [
+    "openclaw",
+    "agentmem"
+  ]
+}

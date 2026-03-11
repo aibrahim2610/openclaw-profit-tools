@@ -1,0 +1,12 @@
+{
+  "autoSaveInterval": 60000,
+  "maxHistorySize": 100,
+  "backupInterval": 3600000,
+  "maxBackups": 10,
+  "autoRestart": true,
+  "restartThreshold": 30000,
+  "lastRestart": null,
+  "apiRateLimit": false,
+  "rateLimitTime": null,
+  "rateLimitReset": null
+}

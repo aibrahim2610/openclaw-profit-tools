@@ -1,0 +1,38 @@
+{
+  "name": "DataGuardian",
+  "version": "1.0.0",
+  "env": "production",
+  "gateway": {
+    "port": 18789,
+    "auth": {
+      "mode": "token",
+      "token": "8302afc1e1a846c426ea191b38a7f938d33dc112ebf32be7"
+    }
+  },
+  "services": {
+    "monitoring": {
+      "enabled": true,
+      "sources": ["hibp", "dehashed", "public_breaches"],
+      "intervalMinutes": 60
+    },
+    "notification": {
+      "enabled": true,
+      "channels": ["email", "telegram", "whatsapp"]
+    },
+    "billing": {
+      "enabled": true,
+      "provider": "stripe",
+      "webhookSecret": ""
+    }
+  },
+  "database": {
+    "path": "./data/guardian.db",
+    "encryptionKey": ""
+  },
+  "agents": {
+    "monitor": "monitor-agent",
+    "notifier": "notifier-agent",
+    "upseller": "upseller-agent",
+    "remover": "remover-agent"
+  }
+}

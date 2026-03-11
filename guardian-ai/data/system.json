@@ -1,0 +1,486 @@
+{
+  "totalRevenue": 1253.1903145437968,
+  "transactionCount": 9,
+  "users": [
+    {
+      "id": 1,
+      "email": "mike7054@yahoo.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.797Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 2,
+      "email": "robert7972@protonmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.799Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 3,
+      "email": "alex2252@protonmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.801Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 4,
+      "email": "david4159@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.802Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 5,
+      "email": "mike318@yahoo.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.804Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 6,
+      "email": "alex4933@yahoo.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.805Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 7,
+      "email": "david3993@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.807Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 8,
+      "email": "alex683@yahoo.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.809Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 9,
+      "email": "lisa5124@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.810Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 10,
+      "email": "mike8527@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:15:34.811Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 11,
+      "email": "emily8039@yahoo.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.118Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 12,
+      "email": "lisa5640@hotmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.121Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 13,
+      "email": "john3444@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.123Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 14,
+      "email": "john6335@protonmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.125Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 15,
+      "email": "anna2703@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.129Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 16,
+      "email": "anna6013@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.131Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 17,
+      "email": "mike8149@protonmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.132Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 18,
+      "email": "alex7312@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.132Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 19,
+      "email": "lisa8027@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.133Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 20,
+      "email": "sarah2387@protonmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:02.134Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 21,
+      "email": "robert800@protonmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.798Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 22,
+      "email": "anna1819@yahoo.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.802Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 23,
+      "email": "jennifer5167@protonmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.804Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 24,
+      "email": "david4339@hotmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.805Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 25,
+      "email": "jennifer5846@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.807Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 26,
+      "email": "david9742@hotmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.809Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 27,
+      "email": "sarah2235@hotmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.811Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 28,
+      "email": "robert9676@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.813Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 29,
+      "email": "anna6375@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.814Z",
+      "subscription_level": "free",
+      "opted_in": true
+    },
+    {
+      "id": 30,
+      "email": "john6839@gmail.com",
+      "name": "Anonymous",
+      "created_at": "2026-03-10T16:16:29.816Z",
+      "subscription_level": "free",
+      "opted_in": true
+    }
+  ],
+  "breaches": [
+    {
+      "email": "david4159@gmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:15:34.803Z"
+    },
+    {
+      "email": "mike318@yahoo.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:15:34.805Z"
+    },
+    {
+      "email": "mike318@yahoo.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:15:34.805Z"
+    },
+    {
+      "email": "mike318@yahoo.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:15:34.805Z"
+    },
+    {
+      "email": "mike318@yahoo.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:15:34.805Z"
+    },
+    {
+      "email": "alex4933@yahoo.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:15:34.806Z"
+    },
+    {
+      "email": "david3993@gmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:15:34.808Z"
+    },
+    {
+      "email": "lisa5124@gmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:15:34.811Z"
+    },
+    {
+      "email": "lisa5124@gmail.com",
+      "source": "DarkMarket",
+      "timestamp": "2026-03-10T16:15:34.811Z"
+    },
+    {
+      "email": "lisa5124@gmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:15:34.811Z"
+    },
+    {
+      "email": "lisa5124@gmail.com",
+      "source": "DarkMarket",
+      "timestamp": "2026-03-10T16:15:34.811Z"
+    },
+    {
+      "email": "mike8527@gmail.com",
+      "source": "DarkMarket",
+      "timestamp": "2026-03-10T16:15:34.812Z"
+    },
+    {
+      "email": "mike8527@gmail.com",
+      "source": "DarkMarket",
+      "timestamp": "2026-03-10T16:15:34.812Z"
+    },
+    {
+      "email": "mike8527@gmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:15:34.812Z"
+    },
+    {
+      "email": "mike8527@gmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:15:34.812Z"
+    },
+    {
+      "email": "mike8527@gmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:15:34.812Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "DarkMarket",
+      "timestamp": "2026-03-10T16:16:02.122Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:02.122Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:16:02.122Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:16:02.122Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:16:02.122Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:02.122Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:02.122Z"
+    },
+    {
+      "email": "lisa5640@hotmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:02.123Z"
+    },
+    {
+      "email": "john3444@gmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:02.125Z"
+    },
+    {
+      "email": "john6335@protonmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:16:02.127Z"
+    },
+    {
+      "email": "sarah2387@protonmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:16:02.135Z"
+    },
+    {
+      "email": "sarah2387@protonmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:16:02.135Z"
+    },
+    {
+      "email": "sarah2387@protonmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:02.135Z"
+    },
+    {
+      "email": "sarah2387@protonmail.com",
+      "source": "PasteSite",
+      "timestamp": "2026-03-10T16:16:02.135Z"
+    },
+    {
+      "email": "sarah2387@protonmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:02.135Z"
+    },
+    {
+      "email": "robert800@protonmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:16:29.801Z"
+    },
+    {
+      "email": "robert800@protonmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:16:29.801Z"
+    },
+    {
+      "email": "robert800@protonmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:16:29.801Z"
+    },
+    {
+      "email": "david4339@hotmail.com",
+      "source": "BreachForums",
+      "timestamp": "2026-03-10T16:16:29.807Z"
+    },
+    {
+      "email": "john6839@gmail.com",
+      "source": "RaidForum",
+      "timestamp": "2026-03-10T16:16:29.817Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "amount": 33.81285756889729,
+      "source": "api_calls",
+      "timestamp": "2026-03-10T16:15:34.813Z"
+    },
+    {
+      "id": 2,
+      "amount": 144.97022566484853,
+      "source": "consulting",
+      "timestamp": "2026-03-10T16:15:34.815Z"
+    },
+    {
+      "id": 3,
+      "amount": 253.41350799683175,
+      "source": "subscription",
+      "timestamp": "2026-03-10T16:15:34.816Z"
+    },
+    {
+      "id": 4,
+      "amount": 58.70107241606488,
+      "source": "api_calls",
+      "timestamp": "2026-03-10T16:16:02.136Z"
+    },
+    {
+      "id": 5,
+      "amount": 251.46138027079556,
+      "source": "consulting",
+      "timestamp": "2026-03-10T16:16:02.140Z"
+    },
+    {
+      "id": 6,
+      "amount": 7.836121409829033,
+      "source": "subscription",
+      "timestamp": "2026-03-10T16:16:02.142Z"
+    },
+    {
+      "id": 7,
+      "amount": 57.308662174246464,
+      "source": "api_calls",
+      "timestamp": "2026-03-10T16:16:29.818Z"
+    },
+    {
+      "id": 8,
+      "amount": 402.9632102414843,
+      "source": "consulting",
+      "timestamp": "2026-03-10T16:16:29.821Z"
+    },
+    {
+      "id": 9,
+      "amount": 42.72327680079899,
+      "source": "subscription",
+      "timestamp": "2026-03-10T16:16:29.822Z"
+    }
+  ],
+  "subscriptions": [],
+  "startTime": "2026-03-10T16:15:33.671Z"
+}

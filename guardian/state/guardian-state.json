@@ -1,0 +1,28 @@
+{
+  "processes": [
+    {
+      "name": "openclaw-gateway",
+      "pid": null,
+      "restart": true,
+      "lastCheck": 1773185559559
+    },
+    {
+      "name": "guardian-ai",
+      "pid": null,
+      "restart": true,
+      "lastCheck": 1773185559559
+    },
+    {
+      "name": "up-platform",
+      "pid": null,
+      "restart": true,
+      "lastCheck": 1773185559559
+    },
+    {
+      "name": "memory-monitor",
+      "pid": null,
+      "restart": true,
+      "lastCheck": 1773185559559
+    }
+  ]
+}

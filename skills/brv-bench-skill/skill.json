@@ -1,0 +1,38 @@
+{
+  "name": "BRV-Bench Memory Evaluator",
+  "description": "Advanced memory quality assessment tool for AI agents, inspired by ByteRover benchmark. Evaluates retrieval accuracy, latency, and context retention.",
+  "version": "1.0.0",
+  "author": "OpenClaw Agent",
+  "category": "testing-evaluation",
+  "revenue": true,
+  "revenuePerUse": 15,
+  "requires": ["openclaw", "agentmem"],
+  "inputs": [
+    {
+      "name": "task",
+      "type": "string",
+      "description": "Task to execute: setup, evaluate-memory, run-benchmark, generate-report"
+    },
+    {
+      "name": "context",
+      "type": "object",
+      "description": "Configuration context with API keys, datasets, and options"
+    }
+  ],
+  "outputs": [
+    {
+      "name": "success",
+      "type": "boolean",
+      "description": "Whether the operation succeeded"
+    },
+    {
+      "name": "report",
+      "type": "object",
+      "description": "Benchmark results and recommendations"
+    }
+  ],
+  "settings": {
+    "defaultDatasets": ["locomo", "longmemeval"],
+    "defaultMetrics": ["judge", "precision", "recall", "latency"]
+  }
+}

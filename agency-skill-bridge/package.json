@@ -1,0 +1,32 @@
+{
+  "name": "agency-skill-bridge",
+  "version": "1.0.0",
+  "description": "Bridges 18+ AI agent skills for various tasks: design, coding, content, analysis",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "skills": "node list-skills.js",
+    "test": "node test-skills.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "openai": "^4.20.1",
+    "anthropic": "^0.14.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "chalk": "^4.1.2"
+  },
+  "keywords": [
+    "ai-agents",
+    "skill-bridge",
+    "openai",
+    "anthropic",
+    "automation"
+  ],
+  "author": "Guardian-AI",
+  "license": "MIT"
+}

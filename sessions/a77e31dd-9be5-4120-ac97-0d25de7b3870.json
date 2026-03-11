@@ -1,0 +1,48 @@
+{
+  "id": "a77e31dd-9be5-4120-ac97-0d25de7b3870",
+  "name": "test-session",
+  "data": {},
+  "createdAt": 1773185217625,
+  "lastActivity": 1773185217635,
+  "status": "active",
+  "retries": 0,
+  "currentTask": null,
+  "history": [
+    {
+      "timestamp": 1773185217628,
+      "action": "api-call",
+      "apiName": "test",
+      "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185217630,
+      "action": "api-call",
+      "apiName": "test",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185217631,
+      "action": "api-call",
+      "apiName": "test",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185217632,
+      "action": "api-call",
+      "apiName": "test",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap...",
+      "proxy": "none"
+    },
+    {
+      "timestamp": 1773185217634,
+      "action": "api-call",
+      "apiName": "test",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWeb...",
+      "proxy": "none"
+    }
+  ],
+  "lastApiSuccess": 1773185217635
+}
