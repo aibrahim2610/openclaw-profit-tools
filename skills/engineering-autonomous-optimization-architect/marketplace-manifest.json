@@ -3,15 +3,10 @@
   "description": "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs.",
   "category": "Automation",
   "subcategory": "CI/CD",
-  "pricing": {
-    "unit_name": "per month",
-    "unit_price": 29,
-    "unit_interval": "monthly"
-  },
   "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-autonomous-optimization-architect/README.md",
   "vendor_email": "aibrahim2610@users.noreply.github.com",
   "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
   "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-autonomous-optimization-architect",
-  "publishedAt": "2026-03-11T18:33:47.253Z",
+  "publishedAt": "2026-03-11T18:45:12.742Z",
   "status": "draft"
 }

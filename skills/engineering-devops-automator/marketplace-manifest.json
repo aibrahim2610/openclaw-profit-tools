@@ -3,15 +3,10 @@
   "description": "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations",
   "category": "Automation",
   "subcategory": "CI/CD",
-  "pricing": {
-    "unit_name": "per month",
-    "unit_price": 29,
-    "unit_interval": "monthly"
-  },
   "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-devops-automator/README.md",
   "vendor_email": "aibrahim2610@users.noreply.github.com",
   "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
   "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-devops-automator",
-  "publishedAt": "2026-03-11T18:33:47.263Z",
+  "publishedAt": "2026-03-11T18:45:12.746Z",
   "status": "draft"
 }

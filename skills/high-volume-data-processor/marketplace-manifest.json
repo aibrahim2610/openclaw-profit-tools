@@ -3,15 +3,10 @@
   "description": "Process millions of records per hour",
   "category": "Automation",
   "subcategory": "CI/CD",
-  "pricing": {
-    "unit_name": "per month",
-    "unit_price": 29,
-    "unit_interval": "monthly"
-  },
   "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/high-volume-data-processor/README.md",
   "vendor_email": "aibrahim2610@users.noreply.github.com",
   "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
   "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/high-volume-data-processor",
-  "publishedAt": "2026-03-11T18:33:47.305Z",
+  "publishedAt": "2026-03-11T18:45:12.768Z",
   "status": "draft"
 }

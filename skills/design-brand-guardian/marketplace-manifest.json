@@ -3,15 +3,10 @@
   "description": "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
   "category": "Automation",
   "subcategory": "CI/CD",
-  "pricing": {
-    "unit_name": "per month",
-    "unit_price": 29,
-    "unit_interval": "monthly"
-  },
   "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-brand-guardian/README.md",
   "vendor_email": "aibrahim2610@users.noreply.github.com",
   "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
   "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-brand-guardian",
-  "publishedAt": "2026-03-11T18:33:47.218Z",
+  "publishedAt": "2026-03-11T18:45:12.725Z",
   "status": "draft"
 }

@@ -7,20 +7,15 @@
         "description": ".git",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/.git/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/.git"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/.git/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.191Z",
+      "publishedAt": "2026-03-11T18:45:12.711Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "agentmem",
@@ -29,20 +24,15 @@
         "description": "agentmem",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/agentmem/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/agentmem"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/agentmem/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.196Z",
+      "publishedAt": "2026-03-11T18:45:12.713Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "api-integration-hub",
@@ -51,20 +41,15 @@
         "description": "Universal API integration platform",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/api-integration-hub/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/api-integration-hub"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/api-integration-hub/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.201Z",
+      "publishedAt": "2026-03-11T18:45:12.715Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "automated-data-processor",
@@ -73,20 +58,15 @@
         "description": "High-throughput data processing and transformation",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/automated-data-processor/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/automated-data-processor"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/automated-data-processor/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.204Z",
+      "publishedAt": "2026-03-11T18:45:12.717Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "browsecraft",
@@ -95,20 +75,15 @@
         "description": "browsecraft",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/browsecraft/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/browsecraft"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/browsecraft/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.207Z",
+      "publishedAt": "2026-03-11T18:45:12.719Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "brv-bench-skill",
@@ -117,20 +92,15 @@
         "description": "Advanced memory quality assessment tool for AI agents, inspired by ByteRover benchmark. Evaluates retrieval accuracy, latency, and context retention.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/brv-bench-skill/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/brv-bench-skill"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/brv-bench-skill/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.210Z",
+      "publishedAt": "2026-03-11T18:45:12.721Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "client-tracker",
@@ -139,20 +109,15 @@
         "description": "client-tracker",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/client-tracker/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/client-tracker"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/client-tracker/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.213Z",
+      "publishedAt": "2026-03-11T18:45:12.722Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "crawl4ai-skill",
@@ -161,20 +126,15 @@
         "description": "crawl4ai-skill",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/crawl4ai-skill/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/crawl4ai-skill"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/crawl4ai-skill/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.215Z",
+      "publishedAt": "2026-03-11T18:45:12.724Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "design-brand-guardian",
@@ -183,20 +143,15 @@
         "description": "Expert brand strategist and guardian specializing in brand identity development, consistency maintenance, and strategic brand positioning",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-brand-guardian/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-brand-guardian"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/design-brand-guardian/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.220Z",
+      "publishedAt": "2026-03-11T18:45:12.726Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "design-image-prompt-engineer",
@@ -205,20 +160,15 @@
         "description": "Expert photography prompt engineer specializing in crafting detailed, evocative prompts for AI image generation. Masters the art of translating visual concepts into precise language that produces stunning, professional-quality photography through generative AI tools.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-image-prompt-engineer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-image-prompt-engineer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/design-image-prompt-engineer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.224Z",
+      "publishedAt": "2026-03-11T18:45:12.728Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "design-inclusive-visuals-specialist",
@@ -227,20 +177,15 @@
         "description": "Representation expert who defeats systemic AI biases to generate culturally accurate, affirming, and non-stereotypical images and video.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-inclusive-visuals-specialist/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-inclusive-visuals-specialist"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/design-inclusive-visuals-specialist/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.228Z",
+      "publishedAt": "2026-03-11T18:45:12.730Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "design-ui-designer",
@@ -249,20 +194,15 @@
         "description": "Expert UI designer specializing in visual design systems, component libraries, and pixel-perfect interface creation. Creates beautiful, consistent, accessible user interfaces that enhance UX and reflect brand identity",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-ui-designer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-ui-designer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/design-ui-designer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.232Z",
+      "publishedAt": "2026-03-11T18:45:12.731Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "design-ux-architect",
@@ -271,20 +211,15 @@
         "description": "Technical architecture and UX specialist who provides developers with solid foundations, CSS systems, and clear implementation guidance",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-ux-architect/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-ux-architect"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/design-ux-architect/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.235Z",
+      "publishedAt": "2026-03-11T18:45:12.733Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "design-ux-researcher",
@@ -293,20 +228,15 @@
         "description": "Expert user experience researcher specializing in user behavior analysis, usability testing, and data-driven design insights. Provides actionable research findings that improve product usability and user satisfaction",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-ux-researcher/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-ux-researcher"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/design-ux-researcher/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.238Z",
+      "publishedAt": "2026-03-11T18:45:12.735Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "design-visual-storyteller",
@@ -315,20 +245,15 @@
         "description": "Expert visual communication specialist focused on creating compelling visual narratives, multimedia content, and brand storytelling through design. Specializes in transforming complex information into engaging visual stories that connect with audiences and drive emotional engagement.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/design-visual-storyteller/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/design-visual-storyteller"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/design-visual-storyteller/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.241Z",
+      "publishedAt": "2026-03-11T18:45:12.736Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "e-commerce-price-monitor",
@@ -337,20 +262,15 @@
         "description": "Monitors competitor prices across e-commerce platforms",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/e-commerce-price-monitor/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/e-commerce-price-monitor"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/e-commerce-price-monitor/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.245Z",
+      "publishedAt": "2026-03-11T18:45:12.738Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "ecommerce-ad-copy-generator-free",
@@ -359,20 +279,15 @@
         "description": "ecommerce-ad-copy-generator-free",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/ecommerce-ad-copy-generator-free/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/ecommerce-ad-copy-generator-free"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/ecommerce-ad-copy-generator-free/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.248Z",
+      "publishedAt": "2026-03-11T18:45:12.739Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-ai-engineer",
@@ -381,20 +296,15 @@
         "description": "Expert AI/ML engineer specializing in machine learning model development, deployment, and integration into production systems. Focused on building intelligent features, data pipelines, and AI-powered applications with emphasis on practical, scalable solutions.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-ai-engineer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-ai-engineer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-ai-engineer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.251Z",
+      "publishedAt": "2026-03-11T18:45:12.741Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-autonomous-optimization-architect",
@@ -403,20 +313,15 @@
         "description": "Intelligent system governor that continuously shadow-tests APIs for performance while enforcing strict financial and security guardrails against runaway costs.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-autonomous-optimization-architect/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-autonomous-optimization-architect"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-autonomous-optimization-architect/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.254Z",
+      "publishedAt": "2026-03-11T18:45:12.742Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-backend-architect",
@@ -425,20 +330,15 @@
         "description": "Senior backend architect specializing in scalable system design, database architecture, API development, and cloud infrastructure. Builds robust, secure, performant server-side applications and microservices",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-backend-architect/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-backend-architect"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-backend-architect/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.258Z",
+      "publishedAt": "2026-03-11T18:45:12.744Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-data-engineer",
@@ -447,20 +347,15 @@
         "description": "Expert data engineer specializing in building reliable data pipelines, lakehouse architectures, and scalable data infrastructure. Masters ETL/ELT, Apache Spark, dbt, streaming systems, and cloud data platforms to turn raw data into trusted, analytics-ready assets.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-data-engineer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-data-engineer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-data-engineer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.261Z",
+      "publishedAt": "2026-03-11T18:45:12.745Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-devops-automator",
@@ -469,20 +364,15 @@
         "description": "Expert DevOps engineer specializing in infrastructure automation, CI/CD pipeline development, and cloud operations",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-devops-automator/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-devops-automator"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-devops-automator/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.264Z",
+      "publishedAt": "2026-03-11T18:45:12.747Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-embedded-firmware-engineer",
@@ -491,20 +381,15 @@
         "description": "Specialist in bare-metal and RTOS firmware - ESP32/ESP-IDF, PlatformIO, Arduino, ARM Cortex-M, STM32 HAL/LL, Nordic nRF5/nRF Connect SDK, FreeRTOS, Zephyr",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-embedded-firmware-engineer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-embedded-firmware-engineer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-embedded-firmware-engineer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.267Z",
+      "publishedAt": "2026-03-11T18:45:12.748Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-frontend-developer",
@@ -513,20 +398,15 @@
         "description": "Expert frontend developer specializing in modern web technologies, React/Vue/Angular frameworks, UI implementation, and performance optimization",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-frontend-developer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-frontend-developer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-frontend-developer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.270Z",
+      "publishedAt": "2026-03-11T18:45:12.750Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-incident-response-commander",
@@ -535,20 +415,15 @@
         "description": "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-incident-response-commander/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-incident-response-commander"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-incident-response-commander/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.273Z",
+      "publishedAt": "2026-03-11T18:45:12.751Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-mobile-app-builder",
@@ -557,20 +432,15 @@
         "description": "Specialized mobile application developer with expertise in native iOS/Android development and cross-platform frameworks",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-mobile-app-builder/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-mobile-app-builder"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-mobile-app-builder/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.275Z",
+      "publishedAt": "2026-03-11T18:45:12.752Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-rapid-prototyper",
@@ -579,20 +449,15 @@
         "description": "Specialized in ultra-fast proof-of-concept development and MVP creation using efficient tools and frameworks",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-rapid-prototyper/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-rapid-prototyper"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-rapid-prototyper/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.278Z",
+      "publishedAt": "2026-03-11T18:45:12.754Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-security-engineer",
@@ -601,20 +466,15 @@
         "description": "Expert application security engineer specializing in threat modeling, vulnerability assessment, secure code review, and security architecture design for modern web and cloud-native applications.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-security-engineer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-security-engineer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-security-engineer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.281Z",
+      "publishedAt": "2026-03-11T18:45:12.756Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-senior-developer",
@@ -623,20 +483,15 @@
         "description": "Premium implementation specialist - Masters Laravel/Livewire/FluxUI, advanced CSS, Three.js integration",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-senior-developer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-senior-developer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-senior-developer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.284Z",
+      "publishedAt": "2026-03-11T18:45:12.757Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-solidity-smart-contract-engineer",
@@ -645,20 +500,15 @@
         "description": "Expert Solidity developer specializing in EVM smart contract architecture, gas optimization, upgradeable proxy patterns, DeFi protocol development, and security-first contract design across Ethereum and L2 chains.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-solidity-smart-contract-engineer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-solidity-smart-contract-engineer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-solidity-smart-contract-engineer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.287Z",
+      "publishedAt": "2026-03-11T18:45:12.759Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-technical-writer",
@@ -667,20 +517,15 @@
         "description": "Expert technical writer specializing in developer documentation, API references, README files, and tutorials. Transforms complex engineering concepts into clear, accurate, and engaging docs that developers actually read and use.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-technical-writer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-technical-writer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-technical-writer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.290Z",
+      "publishedAt": "2026-03-11T18:45:12.760Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-threat-detection-engineer",
@@ -689,20 +534,15 @@
         "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-threat-detection-engineer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-threat-detection-engineer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-threat-detection-engineer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.293Z",
+      "publishedAt": "2026-03-11T18:45:12.761Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "engineering-wechat-mini-program-developer",
@@ -711,20 +551,15 @@
         "description": "Expert WeChat Mini Program developer specializing in 小程序 development with WXML/WXSS/WXS, WeChat API integration, payment systems, subscription messaging, and the full WeChat ecosystem.",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-wechat-mini-program-developer/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-wechat-mini-program-developer"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/engineering-wechat-mini-program-developer/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.295Z",
+      "publishedAt": "2026-03-11T18:45:12.762Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "enterprise-web-scraper-#1773245066403",
@@ -733,20 +568,15 @@
         "description": "High-volume enterprise web scraper with proxy rotation",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/enterprise-web-scraper-#1773245066403/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/enterprise-web-scraper-#1773245066403"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/enterprise-web-scraper-#1773245066403/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.298Z",
+      "publishedAt": "2026-03-11T18:45:12.764Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "free-resource",
@@ -755,20 +585,15 @@
         "description": "free-resource",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/free-resource/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/free-resource"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/free-resource/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.300Z",
+      "publishedAt": "2026-03-11T18:45:12.765Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "free-search-aggregator",
@@ -777,20 +602,15 @@
         "description": "free-search-aggregator",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/free-search-aggregator/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/free-search-aggregator"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/free-search-aggregator/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.302Z",
+      "publishedAt": "2026-03-11T18:45:12.766Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "freelance-automation-gig",
@@ -799,20 +619,15 @@
         "description": "freelance-automation-gig",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/freelance-automation-gig/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/freelance-automation-gig"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/freelance-automation-gig/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.304Z",
+      "publishedAt": "2026-03-11T18:45:12.767Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "high-volume-data-processor",
@@ -821,20 +636,15 @@
         "description": "Process millions of records per hour",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/high-volume-data-processor/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/high-volume-data-processor"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/high-volume-data-processor/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.306Z",
+      "publishedAt": "2026-03-11T18:45:12.768Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "invoice-template",
@@ -843,20 +653,15 @@
         "description": "invoice-template",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/invoice-template/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/invoice-template"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/invoice-template/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.308Z",
+      "publishedAt": "2026-03-11T18:45:12.769Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "notification-delivery-engine",
@@ -865,20 +670,15 @@
         "description": "Multi-channel notification delivery (SMS, Email, Push, WhatsApp)",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/notification-delivery-engine/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/notification-delivery-engine"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/notification-delivery-engine/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.311Z",
+      "publishedAt": "2026-03-11T18:45:12.771Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "revenue-analytics-dashboard",
@@ -887,20 +687,15 @@
         "description": "Real-time revenue analytics and performance monitoring",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/revenue-analytics-dashboard/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/revenue-analytics-dashboard"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/revenue-analytics-dashboard/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.313Z",
+      "publishedAt": "2026-03-11T18:45:12.772Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "social-media-scraper-pro",
@@ -909,20 +704,15 @@
         "description": "Advanced social media scraping with sentiment analysis",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/social-media-scraper-pro/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/social-media-scraper-pro"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/social-media-scraper-pro/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.316Z",
+      "publishedAt": "2026-03-11T18:45:12.774Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "super-brain",
@@ -931,20 +721,15 @@
         "description": "super-brain",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/super-brain/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/super-brain"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/super-brain/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.317Z",
+      "publishedAt": "2026-03-11T18:45:12.775Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "trading-card-specialist",
@@ -953,20 +738,15 @@
         "description": "trading-card-specialist",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/trading-card-specialist/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/trading-card-specialist"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/trading-card-specialist/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.319Z",
+      "publishedAt": "2026-03-11T18:45:12.775Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "web-search-free",
@@ -975,20 +755,15 @@
         "description": "web-search-free",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/web-search-free/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/web-search-free"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/web-search-free/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.321Z",
+      "publishedAt": "2026-03-11T18:45:12.776Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     },
     {
       "name": "zixun",
@@ -997,22 +772,17 @@
         "description": "zixun",
         "category": "Automation",
         "subcategory": "CI/CD",
-        "pricing": {
-          "unit_name": "per month",
-          "unit_price": 29,
-          "unit_interval": "monthly"
-        },
         "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/zixun/README.md",
         "vendor_email": "aibrahim2610@users.noreply.github.com",
         "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
         "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/zixun"
       },
       "manifestPath": "/root/.openclaw/workspace/skills/zixun/marketplace-manifest.json",
-      "publishedAt": "2026-03-11T18:33:47.322Z",
+      "publishedAt": "2026-03-11T18:45:12.777Z",
       "status": "draft",
-      "price": 29
+      "price": 0
     }
   ],
-  "totalRevenue": 1334,
-  "lastPublish": "2026-03-11T18:33:47.323Z"
+  "totalRevenue": 0,
+  "lastPublish": "2026-03-11T18:45:12.777Z"
 }

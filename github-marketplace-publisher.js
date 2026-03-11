@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * 🚀 GitHub Marketplace Publisher - Fixed Version
+ * 🚀 GitHub Marketplace Publisher - FREE Edition
+ * Publishes all tools as FREE (no pricing) to build audience first
  */
 
 const { spawn } = require('child_process');
@@ -77,12 +78,12 @@ class GitHubMarketplacePublisher {
         console.log(`   ➕ Creating repository: ${this.repoName}`);
         const repoData = {
           name: this.repoName,
-          description: 'Automated profit-generating AI tools and agents for OpenClaw',
+          description: 'OpenClaw Free AI Tools - 46+ automation tools for everyone',
           private: false,
           has_issues: true,
           has_projects: true,
           has_wiki: true,
-          topics: ['ai', 'automation', 'profit', 'tools', 'open-source', 'openclaw'],
+          topics: ['ai', 'automation', 'free-tools', 'open-source', 'openclaw'],
           license: 'mit'
         };
         const createResponse = await fetch('https://api.github.com/user/repos', {
@@ -133,7 +134,7 @@ class GitHubMarketplacePublisher {
     
     await this.spawnCommand('git', ['add', '.'], this.toolsDir);
     
-    const commitMsg = `Automated update: ${new Date().toISOString()}\n\nOpenClaw Profit Tools - ${this.state.tools.length} tools published`;
+    const commitMsg = `Automated update: ${new Date().toISOString()}\n\nOpenClaw Free Tools - ${this.state.tools.length} tools published`;
     await this.spawnCommand('git', ['commit', '-m', commitMsg], this.toolsDir);
     
     await this.spawnCommand('git', ['push', '-u', 'origin', 'main'], this.toolsDir);
@@ -142,18 +143,15 @@ class GitHubMarketplacePublisher {
   }
 
   createMarketplaceListing(toolName, toolPath, description) {
-    console.log(`🏪 Creating listing: ${toolName}`);
+    console.log(`🏪 Creating FREE listing: ${toolName}`);
     
+    // listing With NO pricing = Free on GitHub Marketplace
     const listing = {
       name: toolName,
       description: description || `AI-powered tool: ${toolName}`,
       category: 'Automation',
       subcategory: 'CI/CD',
-      pricing: {
-        unit_name: 'per month',
-        unit_price: 29,
-        unit_interval: 'monthly'
-      },
+      // No pricing = FREE
       setup_url: `https://github.com/${this.username}/${this.repoName}/blob/main/${toolName}/README.md`,
       vendor_email: `${this.username}@users.noreply.github.com`,
       repository_url: `https://github.com/${this.username}/${this.repoName}`,
@@ -175,18 +173,16 @@ class GitHubMarketplacePublisher {
       manifestPath,
       publishedAt: new Date().toISOString(),
       status: 'draft',
-      price: 29
+      price: 0 // Free
     });
     
-    this.state.totalRevenue += 29;
-    
-    console.log(`   ✅ Listed: $29/month`);
+    console.log(`   ✅ Listed: FREE`);
     
     return manifest;
   }
 
   async publishAllTools() {
-    console.log('\n🚀 Publishing all tools to GitHub Marketplace...\n');
+    console.log('\n🚀 Publishing all tools to GitHub Marketplace as FREE...\n');
     
     const tools = fs.readdirSync(this.toolsDir)
       .filter(f => fs.statSync(path.join(this.toolsDir, f)).isDirectory());
@@ -209,7 +205,7 @@ class GitHubMarketplacePublisher {
         
         if (fs.existsSync(skillJsonPath)) {
           const skillJson = JSON.parse(fs.readFileSync(skillJsonPath, 'utf8'));
-          description = skillJson.description || tool;
+          description = skillJson.description || skillJson.summary || tool;
         }
         
         await this.createMarketplaceListing(tool, toolPath, description);
@@ -226,7 +222,7 @@ class GitHubMarketplacePublisher {
     this.saveState();
     
     console.log(`\n📊 Published ${published} new tools`);
-    console.log(`💰 Total potential monthly revenue: $${this.state.totalRevenue.toFixed(2)}`);
+    console.log(`💰 All tools are FREE!`);
     console.log(`📦 Total tools: ${this.state.tools.length}`);
     
     return published;
@@ -250,11 +246,12 @@ class GitHubMarketplacePublisher {
     
     console.log('\n✅ Publishing complete!');
     console.log(`📦 Repository: https://github.com/${this.username}/${this.repoName}`);
-    console.log(`💰 Potential monthly revenue: $${this.state.totalRevenue.toFixed(2)}`);
+    console.log('💰 Strategy: FREE to build audience, monetize later');
     console.log('\n💡 Next steps:');
-    console.log('   - Review listings on GitHub Marketplace dashboard');
-    console.log('   - Submit for approval (if required)');
-    console.log('   - Monitor sales and usage\n');
+    console.log('   - Share on social media: 32K Twitter followers!');
+    console.log('   - Submit listings on GitHub Marketplace');
+    console.log('   - Add donation/sponsor links later');
+    console.log('   - Monitor usage and convert to paid later\n');
   }
 
   async showStatus() {
@@ -265,12 +262,12 @@ class GitHubMarketplacePublisher {
     console.log(`👤 Username: ${this.username}`);
     console.log(`📦 Repository: ${this.repoName}`);
     console.log(`🛠️  Tools Published: ${this.state.tools.length}`);
-    console.log(`💰 Potential Revenue: $${this.state.totalRevenue.toFixed(2)}/month`);
+    console.log(`💰 Strategy: ALL FREE`);
     console.log(`🕐 Last Publish: ${this.state.lastPublish || 'Never'}`);
     
     console.log('\n📋 Published Tools:');
     this.state.tools.forEach((tool, i) => {
-      console.log(`   ${i + 1}. ${tool.name} - $${tool.listing.pricing.unit_price}/month (${tool.status})`);
+      console.log(`   ${i + 1}. ${tool.name} - FREE (${tool.status})`);
     });
     
     console.log('');
@@ -291,10 +288,10 @@ if (require.main === module) {
       await publisher.testConnection();
     } else {
       console.log(`
-GitHub Marketplace Publisher
+GitHub Marketplace Publisher - FREE Edition
 
 Usage:
-  node github-marketplace-publisher.js publish   - Publish all tools
+  node github-marketplace-publisher.js publish   - Publish all tools as FREE
   node github-marketplace-publisher.js status   - Show status
       `);
     }

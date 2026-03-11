@@ -3,15 +3,10 @@
   "description": "Expert incident commander specializing in production incident management, structured response coordination, post-mortem facilitation, SLO/SLI tracking, and on-call process design for reliable engineering organizations.",
   "category": "Automation",
   "subcategory": "CI/CD",
-  "pricing": {
-    "unit_name": "per month",
-    "unit_price": 29,
-    "unit_interval": "monthly"
-  },
   "setup_url": "https://github.com/aibrahim2610/openclaw-profit-tools/blob/main/engineering-incident-response-commander/README.md",
   "vendor_email": "aibrahim2610@users.noreply.github.com",
   "repository_url": "https://github.com/aibrahim2610/openclaw-profit-tools",
   "source_url": "https://github.com/aibrahim2610/openclaw-profit-tools/tree/main/engineering-incident-response-commander",
-  "publishedAt": "2026-03-11T18:33:47.272Z",
+  "publishedAt": "2026-03-11T18:45:12.750Z",
   "status": "draft"
 }
